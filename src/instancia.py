@@ -1,9 +1,9 @@
 import numpy as np
-
+import os
 
 def ler_instancia(caminho):
-    ids_cand, tipo_cand = [], []
-    ids_esc, salas = [], []
+    ids_candidatos, tipo_prova_candidato = [], []
+    ids_escolas, capacidade_salas = [], []
     distancias = []
 
     secao = None  # em qual parte do arquivo estamos
@@ -26,35 +26,35 @@ def ler_instancia(caminho):
             if secao == "candidatos":
                 # id, CEP, tipo_prova, latitude, longitude
                 campos = [campo_sujo.strip() for campo_sujo in linha.split(",")]
-                ids_cand.append(campos[0])
-                tipo_cand.append(campos[2])
+                ids_candidatos.append(campos[0])
+                tipo_prova_candidato.append(campos[2])
 
             elif secao == "escolas":
-                # id, CEP, latitude, longitude, num_salas, capacidades (25;40;50)
+                # id, CEP, latitude, longitude, num_capacidade_salas, capacidades (25;40;50)
                 campos = [campo_sujo.strip() for campo_sujo in linha.split(",")]
-                ids_esc.append(campos[0])
-                salas.append([int(capacidade) for capacidade in campos[5].split(";")])
+                ids_escolas.append(campos[0])
+                capacidade_salas.append([int(capacidade) for capacidade in campos[5].split(";")])
 
             elif secao == "matriz":
                 distancias.append([float(dist) for dist in linha.split(",")])
 
     # vira matriz numpy e confere o tamanho esperado (candidatos x escolas)
     distancias = np.array(distancias)
-    assert distancias.shape == (len(ids_cand), len(ids_esc)), f"matriz com shape {distancias.shape}"
+    assert distancias.shape == (len(ids_candidatos), len(ids_escolas)), f"matriz com shape {distancias.shape}"
 
-    return ids_cand, tipo_cand, ids_esc, salas, distancias
+    return ids_candidatos, tipo_prova_candidato, ids_escolas, capacidade_salas, distancias
 
 
 # teste básico 
 if __name__ == "__main__":
-    instancia = input("Digite o nome da instancia desejada presente na raiz do diretório: ")
-    ids_cand, tipo_cand, ids_esc, salas, distancias = ler_instancia(instancia)
+    import sys
+    ids_candidatos, tipo_prova_candidato, ids_escolas, capacidade_salas, distancias = ler_instancia(sys.argv[1])
 
-    print(len(ids_cand), "candidatos,", len(ids_esc), "escolas")
+    print(len(ids_candidatos), "candidatos,", len(ids_escolas), "escolas")
 
-    tipos = sorted(set(tipo_cand))
-    print("candidatos por tipo:", {t: tipo_cand.count(t) for t in tipos})
+    tipos = sorted(set(tipo_prova_candidato))
+    print("candidatos por tipo de prova:", {tipo: tipo_prova_candidato.count(tipo) for tipo in tipos})
 
-    cap_total = sum(sum(s) for s in salas)
-    print("capacidade total:", cap_total, "(folga:", cap_total - len(ids_cand), ")")
-    print("salas por escola:", [len(s) for s in salas])
+    cap_total = sum(sum(sala) for sala in capacidade_salas)
+    print("capacidade total:", cap_total, "(folga:", cap_total - len(ids_candidatos), ")")
+    print("quantidade de salas por escola:", [len(s) for s in capacidade_salas])
