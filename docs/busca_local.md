@@ -85,14 +85,14 @@ O `main.py` grava, para cada execução, uma linha em `resultados/tabela_resulta
 ocupação mínima/média/máxima e distância média/máxima por candidato) e salva a melhor solução em
 `resultados/solucoes/` (tipo(s) de cada escola e, para cada candidato, escola, sala e tipo).
 
-## 6. Resultados (5 sementes por configuração; custos em km)
+## 6. Resultados (10 sementes por configuração; custos em km)
 
 | Instância | Tipos por escola | Custo inicial | Custo final: média ± desvio | Melhor | Pior | Melhoria média | Tempo médio da busca |
 |---|---|---|---|---|---|---|---|
-| 1 | 1 | 15584,47 | 12465,85 ± 58,86 | 12362,94 | 12533,80 | 20,0% | 2,2 s |
-| 1 | 2 | 15584,47 | 10162,64 ± 571,51 | 9204,47 | 10904,84 | 34,8% | 40,5 s |
-| 2 | 1 | 11838,54 | 9885,63 ± 35,17 | 9867,92 | 9955,96 | 16,5% | 1,9 s |
-| 2 | 2 | 11838,54 | 8978,31 ± 663,51 | 8216,10 | 9920,12 | 24,2% | 24,7 s |
+| 1 | 1 | 15584,47 | 12473,79 ± 69,51 | 12362,94 | 12601,35 | 20,0% | 2,9 s |
+| 1 | 2 | 15584,47 | 10222,62 ± 703,85 | 8851,44 | 11286,81 | 34,4% | 111,7 s |
+| 2 | 1 | 11838,54 | 9902,84 ± 42,02 | 9867,92 | 9988,39 | 16,4% | 2,8 s |
+| 2 | 2 | 11838,54 | 8945,42 ± 607,50 | 8216,10 | 9920,12 | 24,4% | 40,1 s |
 
 Todas as soluções finais passaram na verificação de viabilidade. Em todas, as 12 escolas são
 usadas. A ocupação média das escolas fica em torno de 85%, e a distância máxima de um candidato
@@ -100,9 +100,17 @@ até sua escola fica em torno de 10 a 11,5 km. Os tempos foram medidos em Python
 numpy; mudam de máquina para máquina.
 
 - **Efeito do limite de tipos:** permitir 2 tipos por escola reduz bem o custo, mas também
-  deixa o resultado mais variável (desvio padrão de 570 a 660 km contra 35 a 60 km com 1 tipo).
+  deixa o resultado mais variável (desvio padrão de 607 a 704 km contra 42 a 70 km com 1 tipo).
 - **Tempo:** com 2 tipos o espaço de mudanças é bem maior (uma por sala e por tipo, cerca de 700
   contra 66 pares de escolas), o que explica o tempo maior.
+- **Efeito da polarização espacial (Instância 1 vs. Instância 2):** na Instância 1 (base), os
+  candidatos de todos os tipos estão espalhados uniformemente pelas zonas da cidade. Já na
+  Instância 2 (diferenciada), os candidatos de `M1` estão concentrados na Zona Sul e os de `M2`
+  na Zona Norte. Essa concentração geográfica explica por que a Instância 2 apresenta custos
+  substancialmente menores desde o construtivo (11838,54 km contra 15584,47 km): escolas inteiras
+  alocadas na Zona Sul para `M1` e na Zona Norte para `M2` já atendem esses perfis com
+  deslocamentos curtos, exigindo menos reestruturação na busca local (ganho médio de 16,4% e
+  24,4% na Instância 2 contra 20,0% e 34,4% na Instância 1).
 
 ## 7. Limitações
 
