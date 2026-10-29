@@ -152,11 +152,11 @@ python src/gerar_graficos.py
 | Saída | Conteúdo |
 |---|---|
 | `resultados_lote/tabela_resultados.tex` | tabela única com as 28 instâncias, K=1 e K=2 lado a lado (inicial, melhor, média ± desvio, pior, melhoria, tempos, execuções que pararam no limite de tempo, escolas usadas, ocupação e distâncias) |
-| `resultados_lote/figuras/fig_melhoria.pdf` | melhoria percentual por instância, com desvio entre sementes |
-| `resultados_lote/figuras/fig_variabilidade.pdf` | custo final / custo inicial em cada semente (boxplot) |
-| `resultados_lote/figuras/fig_tempo.pdf` | tempo de construção e de busca vs. candidatos e salas, e ganho vs. tempo |
-| `resultados_lote/figuras/fig_solucao.pdf` | ocupação mínima das escolas e razão distância máxima / média |
-| `resultados_lote/figuras/fig_k1_vs_k2.pdf` | K=1 vs. K=2 e o efeito da folga de capacidade (Seção 5.2) |
+| `resultados_lote/figuras/fig_desempenho_ocupacao.pdf` | eficácia da busca local vs. taxa de ocupação da instância e ganho de K=2 vs. folga livre (Seção 5.2) |
+| `resultados_lote/figuras/fig_escalabilidade_porte.pdf` | escalabilidade do tempo de execução vs. total de salas e vs. número de candidatos |
+| `resultados_lote/figuras/fig_variabilidade_complexidade.pdf` | coeficiente de variação entre sementes (estabilidade) vs. complexidade estrutural de salas |
+| `resultados_lote/figuras/fig_comportamento_solucao.pdf` | desbalanceamento da ocupação escolar e proporção do pior caso (distância máxima / média) |
+| `resultados_lote/figuras/fig_comparativo_g4.pdf` | estudo comparativo dedicado ao Grupo 4 (Instância 1 - Base vs. Instância 2 - Polarizada) |
 | `resultados_lote/figuras/resumo_estatisticas.txt` | números citados no texto do relatório |
 | `resultados_lote/figuras/info_instancias.csv` | cache com candidatos, escolas e salas de cada instância (apague para recalcular) |
 
@@ -184,7 +184,7 @@ de salas e de tipos de prova é lido do arquivo, não é fixo no código.
 | `src/busca_local.py` | busca local com três vizinhanças |
 | `src/main.py` | executa os experimentos (uma instância ou lote), grava os csv, o zip e os logs |
 | `src/gerar_graficos.py` | gera os gráficos e a tabela do relatório a partir dos resultados do lote |
-| `relatorios/` | relatório em LaTeX (SBC) e slides |
+| `../relatorios/` | pasta com o relatório em LaTeX (SBC) e slides |
 | `docs/construtivo.md` | descrição e justificativa do construtivo |
 | `docs/busca_local.md` | função de avaliação, vizinhanças, busca e resultados |
 
