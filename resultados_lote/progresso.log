@@ -1,0 +1,585 @@
+[22:02:27] lote: 28 instância(s) para rodar, 4 em paralelo
+[22:02:27] Iniciando Instancia1_G1 (arquivo: Instancia1_G1.txt)
+[22:02:27] Iniciando Instancia1_G2 (arquivo: Instancia1_G2.txt)
+[22:02:27] Iniciando Instancia1_G3 (arquivo: Instancia1_G3.txt)
+[22:02:27] Iniciando Instancia1_G4 (arquivo: Instancia1_G4.txt)
+[22:02:27] Instancia1_G2: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova (detalhes em falhas.log)
+[22:02:27] Instancia1_G2 K=1 SEM RESULTADO: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[22:02:27] Instancia1_G2 K=2 SEM RESULTADO: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[22:02:27] Iniciando Instancia1_G5 (arquivo: Instancia1_G5.txt)
+[22:02:27] Instancia1_G4: construtivo concluído em 0.02s | custo inicial = 15584.47 km
+[22:02:28] Instancia1_G3: construtivo concluído em 0.58s | custo inicial = 1104.19 km
+[22:02:28] Instancia1_G5: construtivo concluído em 0.70s | custo inicial = 18349.01 km
+[22:02:29] Instancia1_G1: construtivo concluído em 1.81s | custo inicial = 30751.91 km
+[22:02:31] Instancia1_G4 (K=1) | semente  1: custo =   12533.80 km | melhoria 19.6% | 12 escolas | tempo =    4.0s
+[22:02:37] Instancia1_G4 (K=1) | semente  2: custo =   12452.33 km | melhoria 20.1% | 12 escolas | tempo =    5.8s
+[22:02:40] Instancia1_G4 (K=1) | semente  3: custo =   12470.59 km | melhoria 20.0% | 12 escolas | tempo =    3.1s
+[22:02:45] Instancia1_G4 (K=1) | semente  4: custo =   12362.94 km | melhoria 20.7% | 12 escolas | tempo =    4.5s
+[22:02:48] Instancia1_G4 (K=1) | semente  5: custo =   12509.58 km | melhoria 19.7% | 12 escolas | tempo =    3.5s
+[22:02:52] Instancia1_G4 (K=1) | semente  6: custo =   12430.32 km | melhoria 20.2% | 12 escolas | tempo =    3.6s
+[22:02:54] Instancia1_G4 (K=1) | semente  7: custo =   12490.94 km | melhoria 19.9% | 12 escolas | tempo =    2.8s
+[22:02:57] Instancia1_G4 (K=1) | semente  8: custo =   12601.35 km | melhoria 19.1% | 12 escolas | tempo =    2.1s
+[22:02:59] Instancia1_G4 (K=1) | semente  9: custo =   12514.86 km | melhoria 19.7% | 12 escolas | tempo =    2.8s
+[22:03:03] Instancia1_G4 (K=1) | semente 10: custo =   12371.15 km | melhoria 20.6% | 12 escolas | tempo =    3.2s
+[22:03:46] Instancia1_G5 (K=1) | semente  1: custo =   14996.20 km | melhoria 18.3% | 15 escolas | tempo =   78.0s
+[22:03:59] Instancia1_G4 (K=2) | semente  1: custo =   10395.99 km | melhoria 33.3% | 12 escolas | tempo =   56.2s
+[22:04:48] Instancia1_G5 (K=1) | semente  2: custo =   15073.34 km | melhoria 17.9% | 15 escolas | tempo =   62.2s
+[22:05:22] Instancia1_G1 (K=1) | semente  1: custo =   28684.60 km | melhoria  6.7% | 15 escolas | tempo =  172.7s
+[22:06:01] Instancia1_G5 (K=1) | semente  3: custo =   15080.27 km | melhoria 17.8% | 15 escolas | tempo =   73.2s
+[22:06:39] Instancia1_G5 (K=1) | semente  4: custo =   15052.17 km | melhoria 18.0% | 15 escolas | tempo =   38.1s
+[22:06:53] Instancia1_G4 (K=2) | semente  2: custo =   10904.84 km | melhoria 30.0% | 12 escolas | tempo =  174.6s
+[22:07:20] Instancia1_G5 (K=1) | semente  5: custo =   14721.38 km | melhoria 19.8% | 15 escolas | tempo =   40.6s
+[22:07:30] Instancia1_G3 (K=1) | semente  1: custo =    1022.42 km | melhoria  7.4% | 20 escolas | tempo =  302.7s
+[22:08:08] Instancia1_G4 (K=2) | semente  3: custo =   10387.98 km | melhoria 33.3% | 12 escolas | tempo =   75.0s
+[22:08:21] Instancia1_G5 (K=1) | semente  6: custo =   14977.70 km | melhoria 18.4% | 15 escolas | tempo =   60.7s
+[22:09:13] Instancia1_G4 (K=2) | semente  4: custo =    9204.47 km | melhoria 40.9% | 12 escolas | tempo =   64.9s
+[22:09:40] Instancia1_G1 (K=1) | semente  2: custo =   28230.25 km | melhoria  8.2% | 15 escolas | tempo =  258.5s
+[22:09:41] Instancia1_G5 (K=1) | semente  7: custo =   15080.27 km | melhoria 17.8% | 15 escolas | tempo =   80.1s
+[22:10:23] Instancia1_G4 (K=2) | semente  5: custo =    9919.90 km | melhoria 36.3% | 12 escolas | tempo =   70.0s
+[22:10:56] Instancia1_G5 (K=1) | semente  8: custo =   15606.98 km | melhoria 14.9% | 15 escolas | tempo =   75.5s
+[22:11:19] Instancia1_G3 (K=1) | semente  2: custo =    1022.64 km | melhoria  7.4% | 20 escolas | tempo =  228.3s
+[22:12:01] Instancia1_G5 (K=1) | semente  9: custo =   14839.57 km | melhoria 19.1% | 15 escolas | tempo =   64.1s
+[22:12:03] Instancia1_G4 (K=2) | semente  6: custo =    8851.44 km | melhoria 43.2% | 12 escolas | tempo =   99.3s
+[22:12:52] Instancia1_G1 (K=1) | semente  3: custo =   28241.18 km | melhoria  8.2% | 15 escolas | tempo =  191.7s
+[22:12:52] Instancia1_G5 (K=1) | semente 10: custo =   15038.47 km | melhoria 18.0% | 15 escolas | tempo =   51.6s
+[22:13:06] Instancia1_G4 (K=2) | semente  7: custo =   10794.45 km | melhoria 30.7% | 12 escolas | tempo =   63.0s
+[22:14:13] Instancia1_G4 (K=2) | semente  8: custo =   10145.87 km | melhoria 34.9% | 12 escolas | tempo =   67.1s
+[22:14:40] Instancia1_G5 (K=2) | semente  1: custo =   12561.83 km | melhoria 31.5% | 15 escolas | tempo =  108.1s
+[22:16:07] Instancia1_G4 (K=2) | semente  9: custo =   11286.81 km | melhoria 27.6% | 12 escolas | tempo =  114.7s
+[22:16:10] Instancia1_G5 (K=2) | semente  2: custo =   13166.68 km | melhoria 28.2% | 15 escolas | tempo =   89.8s
+[22:16:22] Instancia1_G3 (K=1) | semente  3: custo =    1022.47 km | melhoria  7.4% | 20 escolas | tempo =  303.2s
+[22:16:55] Instancia1_G4 (K=2) | semente 10: custo =   10334.44 km | melhoria 33.7% | 12 escolas | tempo =   48.0s
+[22:16:55] Instancia1_G4 K=1 FINALIZADA: melhor 12362.94 | média 12473.79 | tempo médio 3.56s
+[22:16:55] Instancia1_G4 K=2 FINALIZADA: melhor 8851.44 | média 10222.62 | tempo médio 83.29s
+[22:16:55] Iniciando Instancia1_G6 (arquivo: Instancia1_G6.txt)
+[22:16:56] Instancia1_G6: construtivo concluído em 0.16s | custo inicial = 20288.46 km
+[22:17:21] Instancia1_G5 (K=2) | semente  3: custo =   14253.62 km | melhoria 22.3% | 15 escolas | tempo =   70.4s
+[22:17:57] Instancia1_G1 (K=1) | semente  4: custo =   28474.90 km | melhoria  7.4% | 15 escolas | tempo =  305.7s
+[22:18:03] Instancia1_G6 (K=1) | semente  1: custo =   16422.85 km | melhoria 19.1% | 15 escolas | tempo =   67.5s
+[22:18:06] Instancia1_G5 (K=2) | semente  4: custo =   14609.93 km | melhoria 20.4% | 15 escolas | tempo =   45.7s
+[22:18:54] Instancia1_G5 (K=2) | semente  5: custo =   13226.96 km | melhoria 27.9% | 15 escolas | tempo =   47.5s
+[22:19:58] Instancia1_G5 (K=2) | semente  6: custo =   11798.18 km | melhoria 35.7% | 15 escolas | tempo =   64.6s
+[22:20:54] Instancia1_G3 (K=1) | semente  4: custo =    1026.14 km | melhoria  7.1% | 20 escolas | tempo =  272.2s
+[22:20:58] Instancia1_G5 (K=2) | semente  7: custo =   12354.75 km | melhoria 32.7% | 15 escolas | tempo =   59.8s
+[22:22:36] Instancia1_G5 (K=2) | semente  8: custo =   12036.02 km | melhoria 34.4% | 15 escolas | tempo =   98.1s
+[22:23:00] Instancia1_G1 (K=1) | semente  5: custo =   28481.33 km | melhoria  7.4% | 15 escolas | tempo =  302.8s
+[22:23:04] Instancia1_G6 (K=1) | semente  2: custo =   16236.04 km | melhoria 20.0% | 15 escolas | tempo =  300.5s
+[22:24:50] Instancia1_G5 (K=2) | semente  9: custo =   12091.21 km | melhoria 34.1% | 15 escolas | tempo =  133.6s
+[22:24:58] Instancia1_G6 (K=1) | semente  3: custo =   16209.05 km | melhoria 20.1% | 15 escolas | tempo =  114.5s
+[22:25:56] Instancia1_G3 (K=1) | semente  5: custo =    1020.60 km | melhoria  7.6% | 20 escolas | tempo =  302.3s
+[22:26:27] Instancia1_G5 (K=2) | semente 10: custo =   13053.79 km | melhoria 28.9% | 15 escolas | tempo =   96.6s
+[22:26:27] Instancia1_G5 K=1 FINALIZADA: melhor 14721.38 | média 15046.63 | tempo médio 63.12s
+[22:26:27] Instancia1_G5 K=2 FINALIZADA: melhor 11798.18 | média 12915.30 | tempo médio 82.13s
+[22:26:27] Iniciando Instancia1_G7(1) (arquivo: Instancia1_G7(1).txt)
+[22:26:27] Instancia1_G7(1): construtivo concluído em 0.03s | custo inicial = 27146.69 km
+[22:26:50] Instancia1_G6 (K=1) | semente  4: custo =   16208.61 km | melhoria 20.1% | 15 escolas | tempo =  111.6s
+[22:27:52] Instancia1_G7(1) (K=1) | semente  1: custo =   21286.67 km | melhoria 21.6% | 11 escolas | tempo =   85.0s
+[22:28:10] Instancia1_G1 (K=1) | semente  6: custo =   28484.92 km | melhoria  7.4% | 15 escolas | tempo =  310.2s
+[22:28:26] Instancia1_G7(1) (K=1) | semente  2: custo =   20962.92 km | melhoria 22.8% | 11 escolas | tempo =   34.3s
+[22:28:56] Instancia1_G6 (K=1) | semente  5: custo =   16465.27 km | melhoria 18.8% | 15 escolas | tempo =  126.2s
+[22:29:18] Instancia1_G3 (K=1) | semente  6: custo =    1023.00 km | melhoria  7.4% | 20 escolas | tempo =  201.3s
+[22:30:15] Instancia1_G7(1) (K=1) | semente  3: custo =   21286.67 km | melhoria 21.6% | 11 escolas | tempo =  109.3s
+[22:30:44] Instancia1_G7(1) (K=1) | semente  4: custo =   20962.92 km | melhoria 22.8% | 11 escolas | tempo =   29.0s
+[22:31:20] Instancia1_G1 (K=1) | semente  7: custo =   28311.09 km | melhoria  7.9% | 15 escolas | tempo =  189.2s
+[22:31:21] Instancia1_G6 (K=1) | semente  6: custo =   16225.34 km | melhoria 20.0% | 15 escolas | tempo =  144.8s
+[22:31:35] Instancia1_G7(1) (K=1) | semente  5: custo =   21286.67 km | melhoria 21.6% | 11 escolas | tempo =   51.1s
+[22:33:04] Instancia1_G7(1) (K=1) | semente  6: custo =   21286.67 km | melhoria 21.6% | 11 escolas | tempo =   89.1s
+[22:33:55] Instancia1_G7(1) (K=1) | semente  7: custo =   21286.67 km | melhoria 21.6% | 11 escolas | tempo =   50.9s
+[22:34:18] Instancia1_G3 (K=1) | semente  7: custo =    1022.13 km | melhoria  7.4% | 20 escolas | tempo =  300.4s
+[22:34:32] Instancia1_G6 (K=1) | semente  7: custo =   16287.95 km | melhoria 19.7% | 15 escolas | tempo =  191.2s
+[22:34:33] Instancia1_G7(1) (K=1) | semente  8: custo =   20962.92 km | melhoria 22.8% | 11 escolas | tempo =   38.0s
+[22:35:45] Instancia1_G7(1) (K=1) | semente  9: custo =   21286.67 km | melhoria 21.6% | 11 escolas | tempo =   71.9s
+[22:36:24] Instancia1_G1 (K=1) | semente  8: custo =   28519.54 km | melhoria  7.3% | 15 escolas | tempo =  303.8s
+[22:36:33] Instancia1_G6 (K=1) | semente  8: custo =   16223.43 km | melhoria 20.0% | 15 escolas | tempo =  121.6s
+[22:36:46] Instancia1_G7(1) (K=1) | semente 10: custo =   21286.67 km | melhoria 21.6% | 11 escolas | tempo =   60.5s
+[22:38:25] Instancia1_G7(1) (K=2) | semente  1: custo =   17034.39 km | melhoria 37.3% | 11 escolas | tempo =   99.6s
+[22:39:22] Instancia1_G3 (K=1) | semente  8: custo =    1022.29 km | melhoria  7.4% | 20 escolas | tempo =  303.5s
+[22:39:24] Instancia1_G7(1) (K=2) | semente  2: custo =   17308.60 km | melhoria 36.2% | 11 escolas | tempo =   58.7s
+[22:39:47] Instancia1_G6 (K=1) | semente  9: custo =   16425.96 km | melhoria 19.0% | 15 escolas | tempo =  193.3s
+[22:40:04] Instancia1_G7(1) (K=2) | semente  3: custo =   16645.72 km | melhoria 38.7% | 11 escolas | tempo =   39.7s
+[22:40:39] Instancia1_G7(1) (K=2) | semente  4: custo =   16703.85 km | melhoria 38.5% | 11 escolas | tempo =   35.0s
+[22:41:25] Instancia1_G7(1) (K=2) | semente  5: custo =   17119.04 km | melhoria 36.9% | 11 escolas | tempo =   46.2s
+[22:41:40] Instancia1_G1 (K=1) | semente  9: custo =   28576.15 km | melhoria  7.1% | 15 escolas | tempo =  316.4s
+[22:42:14] Instancia1_G7(1) (K=2) | semente  6: custo =   21484.97 km | melhoria 20.9% | 11 escolas | tempo =   49.1s
+[22:42:49] Instancia1_G6 (K=1) | semente 10: custo =   16491.48 km | melhoria 18.7% | 15 escolas | tempo =  182.5s
+[22:43:16] Instancia1_G7(1) (K=2) | semente  7: custo =   16359.54 km | melhoria 39.7% | 11 escolas | tempo =   61.6s
+[22:43:17] Instancia1_G3 (K=1) | semente  9: custo =    1023.00 km | melhoria  7.4% | 20 escolas | tempo =  235.2s
+[22:43:57] Instancia1_G7(1) (K=2) | semente  8: custo =   16422.81 km | melhoria 39.5% | 11 escolas | tempo =   41.5s
+[22:44:34] Instancia1_G7(1) (K=2) | semente  9: custo =   17216.48 km | melhoria 36.6% | 11 escolas | tempo =   36.4s
+[22:45:07] Instancia1_G7(1) (K=2) | semente 10: custo =   17127.56 km | melhoria 36.9% | 11 escolas | tempo =   33.9s
+[22:45:07] Instancia1_G7 K=1 FINALIZADA: melhor 20962.92 | média 21189.54 | tempo médio 61.94s
+[22:45:07] Instancia1_G7 K=2 FINALIZADA: melhor 16359.54 | média 17342.30 | tempo médio 50.20s
+[22:45:07] Iniciando instancia1_G8 (arquivo: instancia1_G8.txt)
+[22:45:08] instancia1_G8: construtivo concluído em 0.04s | custo inicial = 1266.05 km
+[22:45:08] instancia1_G8 (K=1) | semente  1: custo =    1193.34 km | melhoria  5.7% | 12 escolas | tempo =    0.1s
+[22:45:08] instancia1_G8 (K=1) | semente  2: custo =    1185.30 km | melhoria  6.4% | 12 escolas | tempo =    0.1s
+[22:45:08] instancia1_G8 (K=1) | semente  3: custo =    1185.30 km | melhoria  6.4% | 12 escolas | tempo =    0.1s
+[22:45:08] instancia1_G8 (K=1) | semente  4: custo =    1185.30 km | melhoria  6.4% | 12 escolas | tempo =    0.1s
+[22:45:08] instancia1_G8 (K=1) | semente  5: custo =    1209.06 km | melhoria  4.5% | 12 escolas | tempo =    0.1s
+[22:45:08] instancia1_G8 (K=1) | semente  6: custo =    1201.81 km | melhoria  5.1% | 12 escolas | tempo =    0.1s
+[22:45:08] instancia1_G8 (K=1) | semente  7: custo =    1197.73 km | melhoria  5.4% | 12 escolas | tempo =    0.1s
+[22:45:08] instancia1_G8 (K=1) | semente  8: custo =    1197.73 km | melhoria  5.4% | 12 escolas | tempo =    0.1s
+[22:45:08] instancia1_G8 (K=1) | semente  9: custo =    1209.06 km | melhoria  4.5% | 12 escolas | tempo =    0.1s
+[22:45:09] instancia1_G8 (K=1) | semente 10: custo =    1193.34 km | melhoria  5.7% | 12 escolas | tempo =    0.1s
+[22:45:09] instancia1_G8 (K=2) | semente  1: custo =    1266.05 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[22:45:09] instancia1_G8 (K=2) | semente  2: custo =    1266.05 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[22:45:09] instancia1_G8 (K=2) | semente  3: custo =    1266.05 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[22:45:09] instancia1_G8 (K=2) | semente  4: custo =    1266.05 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[22:45:09] instancia1_G8 (K=2) | semente  5: custo =    1266.05 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[22:45:09] instancia1_G8 (K=2) | semente  6: custo =    1266.05 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[22:45:09] instancia1_G8 (K=2) | semente  7: custo =    1266.05 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[22:45:09] instancia1_G8 (K=2) | semente  8: custo =    1266.05 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[22:45:09] instancia1_G8 (K=2) | semente  9: custo =    1266.05 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[22:45:09] instancia1_G8 (K=2) | semente 10: custo =    1266.05 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[22:45:09] Instancia1_G8 K=1 FINALIZADA: melhor 1185.30 | média 1195.80 | tempo médio 0.14s
+[22:45:09] Instancia1_G8 K=2 FINALIZADA: melhor 1266.05 | média 1266.05 | tempo médio 0.04s
+[22:45:09] Iniciando Instancia1_G9 (arquivo: Instancia1_G9.txt)
+[22:45:09] Instancia1_G9: construtivo concluído em 0.04s | custo inicial = 14105.10 km
+[22:46:46] Instancia1_G1 (K=1) | semente 10: custo =   28330.04 km | melhoria  7.9% | 15 escolas | tempo =  305.8s
+[22:47:50] Instancia1_G6 (K=2) | semente  1: custo =   14266.06 km | melhoria 29.7% | 15 escolas | tempo =  301.0s
+[22:48:18] Instancia1_G3 (K=1) | semente 10: custo =    1024.45 km | melhoria  7.2% | 20 escolas | tempo =  301.3s
+[22:50:09] Instancia1_G9 (K=1) | semente  1: custo =    7328.31 km | melhoria 48.0% | 14 escolas | tempo =  300.6s
+[22:51:18] Instancia1_G6 (K=2) | semente  2: custo =   14883.27 km | melhoria 26.6% | 15 escolas | tempo =  207.6s
+[22:51:47] Instancia1_G1 (K=2) | semente  1: custo =   24940.60 km | melhoria 18.9% | 15 escolas | tempo =  301.4s
+[22:52:15] Instancia1_G3 (K=2) | semente  1: custo =    1009.56 km | melhoria  8.6% | 20 escolas | tempo =  236.6s
+[22:54:58] Instancia1_G6 (K=2) | semente  3: custo =   14194.66 km | melhoria 30.0% | 15 escolas | tempo =  220.1s
+[22:55:03] Instancia1_G9 (K=1) | semente  2: custo =    7247.09 km | melhoria 48.6% | 14 escolas | tempo =  293.4s
+[22:55:29] Instancia1_G3 (K=2) | semente  2: custo =     997.22 km | melhoria  9.7% | 20 escolas | tempo =  194.6s
+[22:56:25] Instancia1_G1 (K=2) | semente  2: custo =   25281.56 km | melhoria 17.8% | 15 escolas | tempo =  278.0s
+[22:59:30] Instancia1_G9 (K=1) | semente  3: custo =    7247.19 km | melhoria 48.6% | 14 escolas | tempo =  267.3s
+[22:59:58] Instancia1_G6 (K=2) | semente  4: custo =   13669.60 km | melhoria 32.6% | 15 escolas | tempo =  300.2s
+[23:00:30] Instancia1_G3 (K=2) | semente  3: custo =     998.90 km | melhoria  9.5% | 20 escolas | tempo =  300.4s
+[23:01:26] Instancia1_G1 (K=2) | semente  3: custo =   25655.84 km | melhoria 16.6% | 15 escolas | tempo =  301.1s
+[23:02:07] Instancia1_G3 (K=2) | semente  4: custo =    1005.26 km | melhoria  9.0% | 20 escolas | tempo =   97.4s
+[23:03:55] Instancia1_G6 (K=2) | semente  5: custo =   14170.27 km | melhoria 30.2% | 15 escolas | tempo =  236.5s
+[23:04:33] Instancia1_G9 (K=1) | semente  4: custo =    7247.19 km | melhoria 48.6% | 14 escolas | tempo =  303.1s
+[23:06:08] Instancia1_G3 (K=2) | semente  5: custo =     997.60 km | melhoria  9.7% | 20 escolas | tempo =  240.8s
+[23:06:27] Instancia1_G1 (K=2) | semente  4: custo =   25271.65 km | melhoria 17.8% | 15 escolas | tempo =  300.5s
+[23:07:45] Instancia1_G6 (K=2) | semente  6: custo =   14433.21 km | melhoria 28.9% | 15 escolas | tempo =  230.5s
+[23:08:20] Instancia1_G3 (K=2) | semente  6: custo =    1005.14 km | melhoria  9.0% | 20 escolas | tempo =  131.8s
+[23:09:34] Instancia1_G9 (K=1) | semente  5: custo =    7247.19 km | melhoria 48.6% | 14 escolas | tempo =  301.0s
+[23:11:27] Instancia1_G1 (K=2) | semente  5: custo =   24540.80 km | melhoria 20.2% | 15 escolas | tempo =  300.6s
+[23:11:34] Instancia1_G6 (K=2) | semente  7: custo =   13363.50 km | melhoria 34.1% | 15 escolas | tempo =  228.6s
+[23:12:13] Instancia1_G3 (K=2) | semente  7: custo =    1006.54 km | melhoria  8.8% | 20 escolas | tempo =  233.6s
+[23:14:06] Instancia1_G9 (K=1) | semente  6: custo =    7247.28 km | melhoria 48.6% | 14 escolas | tempo =  271.9s
+[23:14:58] Instancia1_G3 (K=2) | semente  8: custo =    1014.38 km | melhoria  8.1% | 20 escolas | tempo =  165.1s
+[23:16:15] Instancia1_G3 (K=2) | semente  9: custo =    1007.28 km | melhoria  8.8% | 20 escolas | tempo =   76.9s
+[23:16:27] Instancia1_G1 (K=2) | semente  6: custo =   25512.30 km | melhoria 17.0% | 15 escolas | tempo =  300.0s
+[23:16:34] Instancia1_G6 (K=2) | semente  8: custo =   12381.65 km | melhoria 39.0% | 15 escolas | tempo =  300.4s
+[23:17:37] Instancia1_G9 (K=1) | semente  7: custo =    7247.28 km | melhoria 48.6% | 14 escolas | tempo =  210.9s
+[23:19:34] Instancia1_G3 (K=2) | semente 10: custo =     990.04 km | melhoria 10.3% | 20 escolas | tempo =  198.8s
+[23:19:34] Instancia1_G3 K=1 FINALIZADA: melhor 1020.60 | média 1022.91 | tempo médio 275.61s
+[23:19:34] Instancia1_G3 K=2 FINALIZADA: melhor 990.04 | média 1003.19 | tempo médio 188.17s
+[23:19:34] Iniciando Instancia1_G10 (arquivo: Instancia1_G10.txt)
+[23:19:34] Instancia1_G10: construtivo concluído em 0.04s | custo inicial = 14317.04 km
+[23:21:12] Instancia1_G10 (K=1) | semente  1: custo =   10397.21 km | melhoria 27.4% | 15 escolas | tempo =   98.0s
+[23:21:29] Instancia1_G1 (K=2) | semente  7: custo =   25965.36 km | melhoria 15.6% | 15 escolas | tempo =  301.6s
+[23:21:35] Instancia1_G6 (K=2) | semente  9: custo =   13502.45 km | melhoria 33.4% | 15 escolas | tempo =  300.6s
+[23:22:02] Instancia1_G9 (K=1) | semente  8: custo =    7247.28 km | melhoria 48.6% | 14 escolas | tempo =  264.8s
+[23:23:10] Instancia1_G10 (K=1) | semente  2: custo =   10481.47 km | melhoria 26.8% | 15 escolas | tempo =  118.1s
+[23:25:36] Instancia1_G10 (K=1) | semente  3: custo =   10439.80 km | melhoria 27.1% | 15 escolas | tempo =  145.8s
+[23:26:30] Instancia1_G1 (K=2) | semente  8: custo =   25397.46 km | melhoria 17.4% | 15 escolas | tempo =  301.4s
+[23:26:35] Instancia1_G6 (K=2) | semente 10: custo =   12201.91 km | melhoria 39.9% | 15 escolas | tempo =  300.3s
+[23:26:35] Instancia1_G6 K=1 FINALIZADA: melhor 16208.61 | média 16319.60 | tempo médio 155.53s
+[23:26:35] Instancia1_G6 K=2 FINALIZADA: melhor 12201.91 | média 13706.66 | tempo médio 262.74s
+[23:26:35] Iniciando Instancia1_G11 (arquivo: Instancia1_G11.txt)
+[23:26:35] Instancia1_G11: construtivo concluído em 0.02s | custo inicial = 45872.35 km
+[23:26:53] Instancia1_G10 (K=1) | semente  4: custo =   10481.63 km | melhoria 26.8% | 15 escolas | tempo =   77.3s
+[23:27:06] Instancia1_G9 (K=1) | semente  9: custo =    7247.19 km | melhoria 48.6% | 14 escolas | tempo =  304.1s
+[23:27:17] Instancia1_G11 (K=1) | semente  1: custo =   35173.39 km | melhoria 23.3% | 10 escolas | tempo =   41.6s
+[23:28:59] Instancia1_G10 (K=1) | semente  5: custo =   10731.03 km | melhoria 25.0% | 15 escolas | tempo =  126.0s
+[23:29:00] Instancia1_G11 (K=1) | semente  2: custo =   34967.19 km | melhoria 23.8% | 10 escolas | tempo =  103.2s
+[23:30:08] Instancia1_G10 (K=1) | semente  6: custo =   10422.99 km | melhoria 27.2% | 15 escolas | tempo =   69.0s
+[23:30:11] Instancia1_G11 (K=1) | semente  3: custo =   34972.88 km | melhoria 23.8% | 10 escolas | tempo =   70.6s
+[23:30:59] Instancia1_G11 (K=1) | semente  4: custo =   35220.87 km | melhoria 23.2% | 10 escolas | tempo =   48.6s
+[23:31:35] Instancia1_G1 (K=2) | semente  9: custo =   25389.55 km | melhoria 17.4% | 15 escolas | tempo =  304.4s
+[23:31:57] Instancia1_G9 (K=1) | semente 10: custo =    7247.19 km | melhoria 48.6% | 14 escolas | tempo =  290.7s
+[23:32:26] Instancia1_G11 (K=1) | semente  5: custo =   35220.73 km | melhoria 23.2% | 10 escolas | tempo =   86.4s
+[23:32:41] Instancia1_G10 (K=1) | semente  7: custo =   10397.13 km | melhoria 27.4% | 15 escolas | tempo =  152.2s
+[23:34:16] Instancia1_G10 (K=1) | semente  8: custo =   10222.18 km | melhoria 28.6% | 15 escolas | tempo =   95.8s
+[23:34:19] Instancia1_G11 (K=1) | semente  6: custo =   35016.29 km | melhoria 23.7% | 10 escolas | tempo =  113.9s
+[23:34:32] Instancia1_G9 (K=2) | semente  1: custo =    7338.20 km | melhoria 48.0% | 14 escolas | tempo =  155.4s
+[23:35:21] Instancia1_G11 (K=1) | semente  7: custo =   35220.73 km | melhoria 23.2% | 10 escolas | tempo =   61.7s
+[23:36:01] Instancia1_G1 (K=2) | semente 10: custo =   26089.04 km | melhoria 15.2% | 15 escolas | tempo =  265.9s
+[23:36:01] Instancia1_G1 K=1 FINALIZADA: melhor 28230.25 | média 28433.40 | tempo médio 267.48s
+[23:36:01] Instancia1_G1 K=2 FINALIZADA: melhor 24540.80 | média 25404.41 | tempo médio 297.30s
+[23:36:01] Iniciando Instancia1_G12 (arquivo: Instancia1_G12.txt)
+[23:36:01] Instancia1_G12: construtivo concluído em 0.69s | custo inicial = 22512.73 km
+[23:36:02] Instancia1_G11 (K=1) | semente  8: custo =   35173.39 km | melhoria 23.3% | 10 escolas | tempo =   41.0s
+[23:36:34] Instancia1_G10 (K=1) | semente  9: custo =   10464.13 km | melhoria 26.9% | 15 escolas | tempo =  137.3s
+[23:37:05] Instancia1_G9 (K=2) | semente  2: custo =    6658.13 km | melhoria 52.8% | 14 escolas | tempo =  153.4s
+[23:37:53] Instancia1_G11 (K=1) | semente  9: custo =   35169.16 km | melhoria 23.3% | 10 escolas | tempo =  110.9s
+[23:38:11] Instancia1_G12 (K=1) | semente  1: custo =   19360.58 km | melhoria 14.0% | 15 escolas | tempo =  129.5s
+[23:38:16] Instancia1_G10 (K=1) | semente 10: custo =   10220.30 km | melhoria 28.6% | 15 escolas | tempo =  102.6s
+[23:39:13] Instancia1_G11 (K=1) | semente 10: custo =   35016.29 km | melhoria 23.7% | 10 escolas | tempo =   79.6s
+[23:40:40] Instancia1_G9 (K=2) | semente  3: custo =    6726.66 km | melhoria 52.3% | 14 escolas | tempo =  214.9s
+[23:41:07] Instancia1_G10 (K=2) | semente  1: custo =    8364.90 km | melhoria 41.6% | 15 escolas | tempo =  171.0s
+[23:41:27] Instancia1_G11 (K=2) | semente  1: custo =   32807.85 km | melhoria 28.5% | 10 escolas | tempo =  134.4s
+[23:42:12] Instancia1_G12 (K=1) | semente  2: custo =   19337.29 km | melhoria 14.1% | 15 escolas | tempo =  241.1s
+[23:43:19] Instancia1_G10 (K=2) | semente  2: custo =    8791.54 km | melhoria 38.6% | 15 escolas | tempo =  131.3s
+[23:43:27] Instancia1_G9 (K=2) | semente  4: custo =    6870.87 km | melhoria 51.3% | 14 escolas | tempo =  166.9s
+[23:43:27] Instancia1_G12 (K=1) | semente  3: custo =   19587.02 km | melhoria 13.0% | 15 escolas | tempo =   75.3s
+[23:43:49] Instancia1_G11 (K=2) | semente  2: custo =   32483.30 km | melhoria 29.2% | 10 escolas | tempo =  142.1s
+[23:45:02] Instancia1_G9 (K=2) | semente  5: custo =    9000.89 km | melhoria 36.2% | 14 escolas | tempo =   95.2s
+[23:45:21] Instancia1_G10 (K=2) | semente  3: custo =    9274.03 km | melhoria 35.2% | 15 escolas | tempo =  122.2s
+[23:45:44] Instancia1_G11 (K=2) | semente  3: custo =   32470.85 km | melhoria 29.2% | 10 escolas | tempo =  115.0s
+[23:45:51] Instancia1_G12 (K=1) | semente  4: custo =   19351.18 km | melhoria 14.0% | 15 escolas | tempo =  143.9s
+[23:47:06] Instancia1_G12 (K=1) | semente  5: custo =   19463.44 km | melhoria 13.5% | 15 escolas | tempo =   74.8s
+[23:47:14] Instancia1_G10 (K=2) | semente  4: custo =    8378.61 km | melhoria 41.5% | 15 escolas | tempo =  113.0s
+[23:47:17] Instancia1_G11 (K=2) | semente  4: custo =   33002.98 km | melhoria 28.1% | 10 escolas | tempo =   93.2s
+[23:47:29] Instancia1_G9 (K=2) | semente  6: custo =    7001.95 km | melhoria 50.4% | 14 escolas | tempo =  147.2s
+[23:48:21] Instancia1_G11 (K=2) | semente  5: custo =   39519.00 km | melhoria 13.9% | 10 escolas | tempo =   63.4s
+[23:48:58] Instancia1_G12 (K=1) | semente  6: custo =   19685.44 km | melhoria 12.6% | 15 escolas | tempo =  111.7s
+[23:49:13] Instancia1_G9 (K=2) | semente  7: custo =   10325.40 km | melhoria 26.8% | 14 escolas | tempo =  103.4s
+[23:51:42] Instancia1_G10 (K=2) | semente  5: custo =    9070.01 km | melhoria 36.6% | 15 escolas | tempo =  268.1s
+[23:52:30] Instancia1_G11 (K=2) | semente  6: custo =   32689.38 km | melhoria 28.7% | 10 escolas | tempo =  249.4s
+[23:53:00] Instancia1_G12 (K=1) | semente  7: custo =   19377.69 km | melhoria 13.9% | 15 escolas | tempo =  241.8s
+[23:53:04] Instancia1_G10 (K=2) | semente  6: custo =    9892.13 km | melhoria 30.9% | 15 escolas | tempo =   81.7s
+[23:54:06] Instancia1_G9 (K=2) | semente  8: custo =    7333.59 km | melhoria 48.0% | 14 escolas | tempo =  293.6s
+[23:55:00] Instancia1_G11 (K=2) | semente  7: custo =   30334.71 km | melhoria 33.9% | 10 escolas | tempo =  150.0s
+[23:55:03] Instancia1_G10 (K=2) | semente  7: custo =    8041.65 km | melhoria 43.8% | 15 escolas | tempo =  119.5s
+[23:55:38] Instancia1_G12 (K=1) | semente  8: custo =   19286.46 km | melhoria 14.3% | 15 escolas | tempo =  158.1s
+[23:55:59] Instancia1_G9 (K=2) | semente  9: custo =   10319.30 km | melhoria 26.8% | 14 escolas | tempo =  112.1s
+[23:57:41] Instancia1_G12 (K=1) | semente  9: custo =   19590.64 km | melhoria 13.0% | 15 escolas | tempo =  123.1s
+[23:57:46] Instancia1_G11 (K=2) | semente  8: custo =   28198.33 km | melhoria 38.5% | 10 escolas | tempo =  165.4s
+[23:58:33] Instancia1_G10 (K=2) | semente  8: custo =    7556.58 km | melhoria 47.2% | 15 escolas | tempo =  210.2s
+[23:59:22] Instancia1_G9 (K=2) | semente 10: custo =    7200.78 km | melhoria 48.9% | 14 escolas | tempo =  203.4s
+[23:59:22] Instancia1_G9 K=1 FINALIZADA: melhor 7247.09 | média 7255.32 | tempo médio 280.82s
+[23:59:22] Instancia1_G9 K=2 FINALIZADA: melhor 6658.13 | média 7877.58 | tempo médio 164.58s
+[23:59:22] Iniciando instancia_1_G13 (arquivo: instancia_1_G13.txt)
+[23:59:22] instancia_1_G13: construtivo concluído em 0.00s | custo inicial = 1468.18 km
+[23:59:22] instancia_1_G13 (K=1) | semente  1: custo =    1328.11 km | melhoria  9.5% | 14 escolas | tempo =    0.3s
+[23:59:23] instancia_1_G13 (K=1) | semente  2: custo =    1327.54 km | melhoria  9.6% | 14 escolas | tempo =    0.4s
+[23:59:23] instancia_1_G13 (K=1) | semente  3: custo =    1311.68 km | melhoria 10.7% | 14 escolas | tempo =    0.5s
+[23:59:24] instancia_1_G13 (K=1) | semente  4: custo =    1328.06 km | melhoria  9.5% | 14 escolas | tempo =    0.3s
+[23:59:24] instancia_1_G13 (K=1) | semente  5: custo =    1328.11 km | melhoria  9.5% | 14 escolas | tempo =    0.3s
+[23:59:24] instancia_1_G13 (K=1) | semente  6: custo =    1324.25 km | melhoria  9.8% | 14 escolas | tempo =    0.3s
+[23:59:24] instancia_1_G13 (K=1) | semente  7: custo =    1319.62 km | melhoria 10.1% | 14 escolas | tempo =    0.4s
+[23:59:25] instancia_1_G13 (K=1) | semente  8: custo =    1327.53 km | melhoria  9.6% | 14 escolas | tempo =    0.4s
+[23:59:25] instancia_1_G13 (K=1) | semente  9: custo =    1327.01 km | melhoria  9.6% | 14 escolas | tempo =    0.2s
+[23:59:25] instancia_1_G13 (K=1) | semente 10: custo =    1315.40 km | melhoria 10.4% | 14 escolas | tempo =    0.3s
+[23:59:26] instancia_1_G13 (K=2) | semente  1: custo =    1105.18 km | melhoria 24.7% | 14 escolas | tempo =    0.2s
+[23:59:26] instancia_1_G13 (K=2) | semente  2: custo =    1119.43 km | melhoria 23.8% | 14 escolas | tempo =    0.2s
+[23:59:26] instancia_1_G13 (K=2) | semente  3: custo =    1076.99 km | melhoria 26.6% | 14 escolas | tempo =    0.4s
+[23:59:26] instancia_1_G13 (K=2) | semente  4: custo =    1072.83 km | melhoria 26.9% | 13 escolas | tempo =    0.2s
+[23:59:27] instancia_1_G13 (K=2) | semente  5: custo =    1139.04 km | melhoria 22.4% | 13 escolas | tempo =    0.1s
+[23:59:27] instancia_1_G13 (K=2) | semente  6: custo =    1127.17 km | melhoria 23.2% | 14 escolas | tempo =    0.2s
+[23:59:27] instancia_1_G13 (K=2) | semente  7: custo =    1065.46 km | melhoria 27.4% | 14 escolas | tempo =    0.3s
+[23:59:28] instancia_1_G13 (K=2) | semente  8: custo =    1116.06 km | melhoria 24.0% | 13 escolas | tempo =    0.3s
+[23:59:28] instancia_1_G13 (K=2) | semente  9: custo =    1129.04 km | melhoria 23.1% | 14 escolas | tempo =    0.1s
+[23:59:28] instancia_1_G13 (K=2) | semente 10: custo =    1078.74 km | melhoria 26.5% | 14 escolas | tempo =    0.2s
+[23:59:28] Instancia1_G13 K=1 FINALIZADA: melhor 1311.68 | média 1323.73 | tempo médio 0.34s
+[23:59:28] Instancia1_G13 K=2 FINALIZADA: melhor 1065.46 | média 1102.99 | tempo médio 0.25s
+[23:59:28] Iniciando instancia_1_G14 (arquivo: instancia_1_G14.txt)
+[23:59:28] instancia_1_G14: construtivo concluído em 0.00s | custo inicial = 1741.90 km
+[23:59:28] instancia_1_G14 (K=1) | semente  1: custo =    1431.45 km | melhoria 17.8% | 12 escolas | tempo =    0.0s
+[23:59:28] instancia_1_G14 (K=1) | semente  2: custo =    1412.47 km | melhoria 18.9% | 12 escolas | tempo =    0.1s
+[23:59:28] instancia_1_G14 (K=1) | semente  3: custo =    1408.98 km | melhoria 19.1% | 12 escolas | tempo =    0.1s
+[23:59:28] instancia_1_G14 (K=1) | semente  4: custo =    1392.36 km | melhoria 20.1% | 12 escolas | tempo =    0.1s
+[23:59:28] instancia_1_G14 (K=1) | semente  5: custo =    1409.54 km | melhoria 19.1% | 12 escolas | tempo =    0.1s
+[23:59:28] instancia_1_G14 (K=1) | semente  6: custo =    1420.11 km | melhoria 18.5% | 12 escolas | tempo =    0.1s
+[23:59:28] instancia_1_G14 (K=1) | semente  7: custo =    1390.50 km | melhoria 20.2% | 12 escolas | tempo =    0.1s
+[23:59:29] instancia_1_G14 (K=1) | semente  8: custo =    1423.33 km | melhoria 18.3% | 12 escolas | tempo =    0.1s
+[23:59:29] instancia_1_G14 (K=1) | semente  9: custo =    1408.00 km | melhoria 19.2% | 12 escolas | tempo =    0.0s
+[23:59:29] instancia_1_G14 (K=1) | semente 10: custo =    1392.36 km | melhoria 20.1% | 12 escolas | tempo =    0.1s
+[23:59:29] instancia_1_G14 (K=2) | semente  1: custo =    1216.35 km | melhoria 30.2% | 12 escolas | tempo =    0.1s
+[23:59:29] instancia_1_G14 (K=2) | semente  2: custo =    1274.93 km | melhoria 26.8% | 12 escolas | tempo =    0.1s
+[23:59:29] instancia_1_G14 (K=2) | semente  3: custo =    1237.46 km | melhoria 29.0% | 12 escolas | tempo =    0.1s
+[23:59:29] instancia_1_G14 (K=2) | semente  4: custo =    1221.03 km | melhoria 29.9% | 12 escolas | tempo =    0.1s
+[23:59:29] instancia_1_G14 (K=2) | semente  5: custo =    1282.97 km | melhoria 26.3% | 12 escolas | tempo =    0.1s
+[23:59:29] instancia_1_G14 (K=2) | semente  6: custo =    1199.70 km | melhoria 31.1% | 12 escolas | tempo =    0.2s
+[23:59:30] instancia_1_G14 (K=2) | semente  7: custo =    1263.05 km | melhoria 27.5% | 12 escolas | tempo =    0.1s
+[23:59:30] instancia_1_G14 (K=2) | semente  8: custo =    1207.25 km | melhoria 30.7% | 12 escolas | tempo =    0.1s
+[23:59:30] instancia_1_G14 (K=2) | semente  9: custo =    1167.92 km | melhoria 33.0% | 12 escolas | tempo =    0.2s
+[23:59:30] instancia_1_G14 (K=2) | semente 10: custo =    1243.91 km | melhoria 28.6% | 12 escolas | tempo =    0.1s
+[23:59:30] Instancia1_G14 K=1 FINALIZADA: melhor 1390.50 | média 1408.91 | tempo médio 0.08s
+[23:59:30] Instancia1_G14 K=2 FINALIZADA: melhor 1167.92 | média 1231.46 | tempo médio 0.14s
+[23:59:30] Iniciando Instancia2_G1 (arquivo: Instancia2_G1.txt)
+[23:59:30] Instancia2_G1: construtivo concluído em 0.20s | custo inicial = 18543.06 km
+[23:59:42] Instancia1_G10 (K=2) | semente  9: custo =    9246.31 km | melhoria 35.4% | 15 escolas | tempo =   68.9s
+[00:01:30] Instancia1_G10 (K=2) | semente 10: custo =    9168.68 km | melhoria 36.0% | 15 escolas | tempo =  107.7s
+[00:01:30] Instancia1_G10 K=1 FINALIZADA: melhor 10220.30 | média 10425.79 | tempo médio 112.25s
+[00:01:30] Instancia1_G10 K=2 FINALIZADA: melhor 7556.58 | média 8778.44 | tempo médio 139.40s
+[00:01:30] Iniciando Instancia2_G2 (arquivo: Instancia2_G2.txt)
+[00:01:30] Instancia2_G2: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova (detalhes em falhas.log)
+[00:01:30] Instancia2_G2 K=1 SEM RESULTADO: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[00:01:30] Instancia2_G2 K=2 SEM RESULTADO: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[00:01:30] Iniciando Instancia2_G3 (arquivo: Instancia2_G3.txt)
+[00:01:33] Instancia2_G3: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova (detalhes em falhas.log)
+[00:01:33] Instancia2_G3 K=1 SEM RESULTADO: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[00:01:33] Instancia2_G3 K=2 SEM RESULTADO: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[00:01:33] Iniciando Instancia2_G4 (arquivo: Instancia2_G4.txt)
+[00:01:33] Instancia2_G4: construtivo concluído em 0.02s | custo inicial = 11838.54 km
+[00:01:37] Instancia2_G4 (K=1) | semente  1: custo =    9867.92 km | melhoria 16.6% | 12 escolas | tempo =    3.8s
+[00:01:41] Instancia2_G4 (K=1) | semente  2: custo =    9867.92 km | melhoria 16.6% | 12 escolas | tempo =    4.3s
+[00:01:44] Instancia1_G12 (K=1) | semente 10: custo =   19337.29 km | melhoria 14.1% | 15 escolas | tempo =  243.0s
+[00:01:45] Instancia2_G4 (K=1) | semente  3: custo =    9867.92 km | melhoria 16.6% | 12 escolas | tempo =    4.1s
+[00:01:49] Instancia2_G4 (K=1) | semente  4: custo =    9955.96 km | melhoria 15.9% | 12 escolas | tempo =    3.7s
+[00:01:52] Instancia2_G4 (K=1) | semente  5: custo =    9868.41 km | melhoria 16.6% | 12 escolas | tempo =    2.4s
+[00:01:55] Instancia2_G4 (K=1) | semente  6: custo =    9867.92 km | melhoria 16.6% | 12 escolas | tempo =    3.1s
+[00:01:58] Instancia2_G4 (K=1) | semente  7: custo =    9933.24 km | melhoria 16.1% | 12 escolas | tempo =    3.4s
+[00:02:03] Instancia2_G4 (K=1) | semente  8: custo =    9889.31 km | melhoria 16.5% | 12 escolas | tempo =    5.0s
+[00:02:07] Instancia2_G4 (K=1) | semente  9: custo =    9921.39 km | melhoria 16.2% | 12 escolas | tempo =    3.9s
+[00:02:10] Instancia2_G4 (K=1) | semente 10: custo =    9988.39 km | melhoria 15.6% | 12 escolas | tempo =    2.7s
+[00:02:30] Instancia1_G11 (K=2) | semente  9: custo =   28579.34 km | melhoria 37.7% | 10 escolas | tempo =  284.2s
+[00:02:35] Instancia1_G12 (K=2) | semente  1: custo =   17693.42 km | melhoria 21.4% | 15 escolas | tempo =   51.5s
+[00:02:44] Instancia2_G4 (K=2) | semente  1: custo =    8216.10 km | melhoria 30.6% | 12 escolas | tempo =   34.0s
+[00:03:23] Instancia2_G4 (K=2) | semente  2: custo =    9920.12 km | melhoria 16.2% | 12 escolas | tempo =   39.5s
+[00:03:58] Instancia1_G11 (K=2) | semente 10: custo =   32432.05 km | melhoria 29.3% | 10 escolas | tempo =   88.6s
+[00:03:58] Instancia1_G11 K=1 FINALIZADA: melhor 34967.19 | média 35115.09 | tempo médio 75.76s
+[00:03:58] Instancia1_G11 K=2 FINALIZADA: melhor 28198.33 | média 32251.78 | tempo médio 148.57s
+[00:03:58] Iniciando Instancia2_G5 (arquivo: Instancia2_G5.txt)
+[00:04:06] Instancia2_G5: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova (detalhes em falhas.log)
+[00:04:06] Instancia2_G5 K=1 SEM RESULTADO: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[00:04:06] Instancia2_G5 K=2 SEM RESULTADO: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[00:04:06] Iniciando Instancia2_G6 (arquivo: Instancia2_G6.txt)
+[00:04:06] Instancia2_G6: construtivo concluído em 0.03s | custo inicial = 29951.83 km
+[00:04:32] Instancia2_G4 (K=2) | semente  3: custo =    8672.78 km | melhoria 26.7% | 12 escolas | tempo =   68.2s
+[00:04:36] Instancia2_G1 (K=1) | semente  1: custo =   14308.06 km | melhoria 22.8% | 15 escolas | tempo =  305.3s
+[00:04:45] Instancia2_G6 (K=1) | semente  1: custo =   27528.82 km | melhoria  8.1% | 15 escolas | tempo =   39.0s
+[00:05:30] Instancia2_G6 (K=1) | semente  2: custo =   27569.11 km | melhoria  8.0% | 15 escolas | tempo =   44.1s
+[00:05:37] Instancia1_G12 (K=2) | semente  2: custo =   17884.16 km | melhoria 20.6% | 15 escolas | tempo =  182.1s
+[00:05:43] Instancia2_G4 (K=2) | semente  4: custo =    9603.40 km | melhoria 18.9% | 12 escolas | tempo =   71.7s
+[00:05:59] Instancia2_G6 (K=1) | semente  3: custo =   27555.13 km | melhoria  8.0% | 15 escolas | tempo =   29.4s
+[00:06:34] Instancia2_G4 (K=2) | semente  5: custo =    8479.14 km | melhoria 28.4% | 12 escolas | tempo =   51.1s
+[00:06:50] Instancia2_G6 (K=1) | semente  4: custo =   27617.25 km | melhoria  7.8% | 15 escolas | tempo =   51.3s
+[00:07:10] Instancia2_G4 (K=2) | semente  6: custo =    8921.98 km | melhoria 24.6% | 12 escolas | tempo =   35.3s
+[00:07:24] Instancia2_G6 (K=1) | semente  5: custo =   27579.69 km | melhoria  7.9% | 15 escolas | tempo =   34.1s
+[00:07:44] Instancia1_G12 (K=2) | semente  3: custo =   17680.01 km | melhoria 21.5% | 15 escolas | tempo =  127.0s
+[00:07:46] Instancia2_G6 (K=1) | semente  6: custo =   27593.68 km | melhoria  7.9% | 15 escolas | tempo =   21.9s
+[00:07:52] Instancia2_G4 (K=2) | semente  7: custo =    9848.14 km | melhoria 16.8% | 12 escolas | tempo =   42.0s
+[00:08:37] Instancia2_G4 (K=2) | semente  8: custo =    9045.30 km | melhoria 23.6% | 12 escolas | tempo =   45.5s
+[00:08:43] Instancia2_G6 (K=1) | semente  7: custo =   27419.19 km | melhoria  8.5% | 15 escolas | tempo =   56.8s
+[00:09:34] Instancia2_G6 (K=1) | semente  8: custo =   27501.33 km | melhoria  8.2% | 15 escolas | tempo =   50.7s
+[00:09:39] Instancia2_G1 (K=1) | semente  2: custo =   15147.98 km | melhoria 18.3% | 15 escolas | tempo =  303.1s
+[00:09:53] Instancia2_G4 (K=2) | semente  9: custo =    8421.22 km | melhoria 28.9% | 12 escolas | tempo =   75.9s
+[00:10:25] Instancia2_G6 (K=1) | semente  9: custo =   27589.77 km | melhoria  7.9% | 15 escolas | tempo =   51.2s
+[00:10:55] Instancia2_G6 (K=1) | semente 10: custo =   27807.11 km | melhoria  7.2% | 15 escolas | tempo =   30.1s
+[00:10:57] Instancia2_G4 (K=2) | semente 10: custo =    8326.01 km | melhoria 29.7% | 12 escolas | tempo =   64.3s
+[00:10:57] Instancia2_G4 K=1 FINALIZADA: melhor 9867.92 | média 9902.84 | tempo médio 3.67s
+[00:10:57] Instancia2_G4 K=2 FINALIZADA: melhor 8216.10 | média 8945.42 | tempo médio 52.79s
+[00:10:57] Iniciando Instancia2_G7 (arquivo: Instancia2_G7.txt)
+[00:11:05] Instancia2_G7: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova (detalhes em falhas.log)
+[00:11:05] Instancia2_G7 K=1 SEM RESULTADO: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[00:11:05] Instancia2_G7 K=2 SEM RESULTADO: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[00:11:05] Iniciando instancia2_G8 (arquivo: instancia2_G8.txt)
+[00:11:05] instancia2_G8: construtivo concluído em 0.01s | custo inicial = 140.45 km
+[00:11:05] instancia2_G8 (K=1) | semente  1: custo =     117.08 km | melhoria 16.6% | 12 escolas | tempo =    0.1s
+[00:11:06] instancia2_G8 (K=1) | semente  2: custo =     117.08 km | melhoria 16.6% | 12 escolas | tempo =    0.1s
+[00:11:06] instancia2_G8 (K=1) | semente  3: custo =     117.08 km | melhoria 16.6% | 12 escolas | tempo =    0.1s
+[00:11:06] instancia2_G8 (K=1) | semente  4: custo =     117.08 km | melhoria 16.6% | 12 escolas | tempo =    0.1s
+[00:11:06] instancia2_G8 (K=1) | semente  5: custo =     117.08 km | melhoria 16.6% | 12 escolas | tempo =    0.1s
+[00:11:06] instancia2_G8 (K=1) | semente  6: custo =     117.08 km | melhoria 16.6% | 12 escolas | tempo =    0.1s
+[00:11:06] instancia2_G8 (K=1) | semente  7: custo =     117.08 km | melhoria 16.6% | 12 escolas | tempo =    0.1s
+[00:11:06] instancia2_G8 (K=1) | semente  8: custo =     117.08 km | melhoria 16.6% | 12 escolas | tempo =    0.1s
+[00:11:06] instancia2_G8 (K=1) | semente  9: custo =     117.08 km | melhoria 16.6% | 12 escolas | tempo =    0.1s
+[00:11:06] instancia2_G8 (K=1) | semente 10: custo =     117.08 km | melhoria 16.6% | 12 escolas | tempo =    0.1s
+[00:11:06] instancia2_G8 (K=2) | semente  1: custo =     140.45 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[00:11:06] instancia2_G8 (K=2) | semente  2: custo =     140.45 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[00:11:06] instancia2_G8 (K=2) | semente  3: custo =     140.45 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[00:11:06] instancia2_G8 (K=2) | semente  4: custo =     140.45 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[00:11:06] instancia2_G8 (K=2) | semente  5: custo =     140.45 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[00:11:06] instancia2_G8 (K=2) | semente  6: custo =     140.45 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[00:11:06] instancia2_G8 (K=2) | semente  7: custo =     140.45 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[00:11:06] instancia2_G8 (K=2) | semente  8: custo =     140.45 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[00:11:06] instancia2_G8 (K=2) | semente  9: custo =     140.45 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[00:11:06] instancia2_G8 (K=2) | semente 10: custo =     140.45 km | melhoria  0.0% | 12 escolas | tempo =    0.0s
+[00:11:06] Instancia2_G8 K=1 FINALIZADA: melhor 117.08 | média 117.08 | tempo médio 0.09s
+[00:11:06] Instancia2_G8 K=2 FINALIZADA: melhor 140.45 | média 140.45 | tempo médio 0.02s
+[00:11:06] Iniciando Instancia2_G9 (arquivo: Instancia2_G9.txt)
+[00:11:06] Instancia2_G9: construtivo concluído em 0.04s | custo inicial = 20816.91 km
+[00:11:41] Instancia1_G12 (K=2) | semente  4: custo =   17911.72 km | melhoria 20.4% | 15 escolas | tempo =  236.5s
+[00:13:22] Instancia1_G12 (K=2) | semente  5: custo =   17698.26 km | melhoria 21.4% | 15 escolas | tempo =  101.1s
+[00:14:09] Instancia2_G9 (K=1) | semente  1: custo =   13621.21 km | melhoria 34.6% | 14 escolas | tempo =  183.1s
+[00:14:43] Instancia2_G1 (K=1) | semente  3: custo =   14668.47 km | melhoria 20.9% | 15 escolas | tempo =  304.7s
+[00:15:29] Instancia2_G6 (K=2) | semente  1: custo =   24722.25 km | melhoria 17.5% | 15 escolas | tempo =  273.5s
+[00:16:04] Instancia1_G12 (K=2) | semente  6: custo =   16774.02 km | melhoria 25.5% | 15 escolas | tempo =  162.2s
+[00:18:05] Instancia1_G12 (K=2) | semente  7: custo =   17469.01 km | melhoria 22.4% | 15 escolas | tempo =  120.8s
+[00:19:10] Instancia2_G9 (K=1) | semente  2: custo =   13621.61 km | melhoria 34.6% | 14 escolas | tempo =  300.7s
+[00:19:18] Instancia2_G6 (K=2) | semente  2: custo =   25093.82 km | melhoria 16.2% | 15 escolas | tempo =  229.2s
+[00:19:48] Instancia2_G1 (K=1) | semente  4: custo =   14902.37 km | melhoria 19.6% | 15 escolas | tempo =  304.6s
+[00:20:02] Instancia1_G12 (K=2) | semente  8: custo =   16429.97 km | melhoria 27.0% | 15 escolas | tempo =  116.5s
+[00:21:59] Instancia2_G6 (K=2) | semente  3: custo =   24644.64 km | melhoria 17.7% | 15 escolas | tempo =  160.9s
+[00:22:00] Instancia1_G12 (K=2) | semente  9: custo =   17735.55 km | melhoria 21.2% | 15 escolas | tempo =  118.8s
+[00:23:41] Instancia2_G6 (K=2) | semente  4: custo =   25198.61 km | melhoria 15.9% | 15 escolas | tempo =  102.3s
+[00:24:01] Instancia1_G12 (K=2) | semente 10: custo =   17279.11 km | melhoria 23.2% | 15 escolas | tempo =  120.3s
+[00:24:01] Instancia1_G12 K=1 FINALIZADA: melhor 19286.46 | média 19437.70 | tempo médio 154.92s
+[00:24:01] Instancia1_G12 K=2 FINALIZADA: melhor 16429.97 | média 17455.52 | tempo médio 134.38s
+[00:24:01] Iniciando Instancia2_G10 (arquivo: Instancia2_G10.txt)
+[00:24:01] Instancia2_G10: construtivo concluído em 0.57s | custo inicial = 14393.32 km
+[00:24:10] Instancia2_G10 (K=1) | semente  1: custo =   13353.21 km | melhoria  7.2% | 15 escolas | tempo =    8.8s
+[00:24:13] Instancia2_G9 (K=1) | semente  3: custo =   13600.54 km | melhoria 34.7% | 14 escolas | tempo =  303.0s
+[00:24:29] Instancia2_G10 (K=1) | semente  2: custo =   13344.65 km | melhoria  7.3% | 15 escolas | tempo =   18.5s
+[00:24:43] Instancia2_G10 (K=1) | semente  3: custo =   13344.65 km | melhoria  7.3% | 15 escolas | tempo =   14.6s
+[00:24:52] Instancia2_G10 (K=1) | semente  4: custo =   13353.21 km | melhoria  7.2% | 15 escolas | tempo =    8.7s
+[00:24:53] Instancia2_G6 (K=2) | semente  5: custo =   25274.89 km | melhoria 15.6% | 15 escolas | tempo =   72.1s
+[00:24:58] Instancia2_G1 (K=1) | semente  5: custo =   15164.43 km | melhoria 18.2% | 15 escolas | tempo =  309.8s
+[00:25:07] Instancia2_G10 (K=1) | semente  5: custo =   13344.65 km | melhoria  7.3% | 15 escolas | tempo =   14.9s
+[00:25:26] Instancia2_G10 (K=1) | semente  6: custo =   13344.65 km | melhoria  7.3% | 15 escolas | tempo =   19.2s
+[00:25:39] Instancia2_G10 (K=1) | semente  7: custo =   13353.21 km | melhoria  7.2% | 15 escolas | tempo =   13.0s
+[00:25:48] Instancia2_G10 (K=1) | semente  8: custo =   13353.21 km | melhoria  7.2% | 15 escolas | tempo =    8.7s
+[00:26:05] Instancia2_G10 (K=1) | semente  9: custo =   13353.21 km | melhoria  7.2% | 15 escolas | tempo =   16.7s
+[00:26:19] Instancia2_G10 (K=1) | semente 10: custo =   13344.65 km | melhoria  7.3% | 15 escolas | tempo =   14.4s
+[00:26:22] Instancia2_G6 (K=2) | semente  6: custo =   25043.43 km | melhoria 16.4% | 15 escolas | tempo =   88.6s
+[00:26:45] Instancia2_G10 (K=2) | semente  1: custo =   13487.65 km | melhoria  6.3% | 15 escolas | tempo =   26.5s
+[00:27:12] Instancia2_G10 (K=2) | semente  2: custo =   13318.38 km | melhoria  7.5% | 15 escolas | tempo =   27.0s
+[00:27:19] Instancia2_G10 (K=2) | semente  3: custo =   14118.53 km | melhoria  1.9% | 15 escolas | tempo =    6.1s
+[00:27:25] Instancia2_G10 (K=2) | semente  4: custo =   14122.35 km | melhoria  1.9% | 15 escolas | tempo =    6.0s
+[00:27:44] Instancia2_G10 (K=2) | semente  5: custo =   13002.39 km | melhoria  9.7% | 15 escolas | tempo =   19.8s
+[00:27:53] Instancia2_G10 (K=2) | semente  6: custo =   14084.72 km | melhoria  2.1% | 15 escolas | tempo =    9.2s
+[00:28:05] Instancia2_G10 (K=2) | semente  7: custo =   13813.28 km | melhoria  4.0% | 15 escolas | tempo =   11.4s
+[00:28:24] Instancia2_G10 (K=2) | semente  8: custo =   13018.94 km | melhoria  9.5% | 15 escolas | tempo =   19.5s
+[00:28:45] Instancia2_G10 (K=2) | semente  9: custo =   13800.80 km | melhoria  4.1% | 15 escolas | tempo =   20.7s
+[00:28:52] Instancia2_G10 (K=2) | semente 10: custo =   14114.71 km | melhoria  1.9% | 15 escolas | tempo =    6.9s
+[00:28:52] Instancia2_G10 K=1 FINALIZADA: melhor 13344.65 | média 13348.93 | tempo médio 14.32s
+[00:28:52] Instancia2_G10 K=2 FINALIZADA: melhor 13002.39 | média 13688.18 | tempo médio 15.88s
+[00:28:52] Iniciando Instancia2_G11 (arquivo: Instancia2_G11.txt)
+[00:28:52] Instancia2_G11: construtivo concluído em 0.12s | custo inicial = 105019.88 km
+[00:28:52] Instancia2_G6 (K=2) | semente  7: custo =   24682.82 km | melhoria 17.6% | 15 escolas | tempo =  150.4s
+[00:29:14] Instancia2_G9 (K=1) | semente  4: custo =   14050.80 km | melhoria 32.5% | 14 escolas | tempo =  301.1s
+[00:30:14] Instancia2_G1 (K=1) | semente  6: custo =   15296.76 km | melhoria 17.5% | 15 escolas | tempo =  316.2s
+[00:30:26] Instancia2_G6 (K=2) | semente  8: custo =   24728.24 km | melhoria 17.4% | 15 escolas | tempo =   93.2s
+[00:32:59] Instancia2_G6 (K=2) | semente  9: custo =   24130.14 km | melhoria 19.4% | 15 escolas | tempo =  153.4s
+[00:33:48] Instancia2_G9 (K=1) | semente  5: custo =   13622.36 km | melhoria 34.6% | 14 escolas | tempo =  273.9s
+[00:33:56] Instancia2_G11 (K=1) | semente  1: custo =  102745.98 km | melhoria  2.2% | 15 escolas | tempo =  303.8s
+[00:35:31] Instancia2_G1 (K=1) | semente  7: custo =   14770.98 km | melhoria 20.3% | 15 escolas | tempo =  316.9s
+[00:35:39] Instancia2_G6 (K=2) | semente 10: custo =   24059.58 km | melhoria 19.7% | 15 escolas | tempo =  160.0s
+[00:35:39] Instancia2_G6 K=1 FINALIZADA: melhor 27419.19 | média 27576.11 | tempo médio 40.91s
+[00:35:39] Instancia2_G6 K=2 FINALIZADA: melhor 24059.58 | média 24757.84 | tempo médio 148.41s
+[00:35:39] Iniciando Instancia2_G12 (arquivo: Instancia2_G12.txt)
+[00:35:40] Instancia2_G12: construtivo concluído em 0.79s | custo inicial = 98632.70 km
+[00:36:10] Instancia2_G12 (K=1) | semente  1: custo =   95039.69 km | melhoria  3.6% | 15 escolas | tempo =   30.1s
+[00:37:00] Instancia2_G12 (K=1) | semente  2: custo =   94869.88 km | melhoria  3.8% | 15 escolas | tempo =   50.6s
+[00:37:39] Instancia2_G12 (K=1) | semente  3: custo =   95012.13 km | melhoria  3.7% | 15 escolas | tempo =   38.2s
+[00:38:57] Instancia2_G9 (K=1) | semente  6: custo =   13524.62 km | melhoria 35.0% | 14 escolas | tempo =  309.4s
+[00:39:04] Instancia2_G11 (K=1) | semente  2: custo =  102761.17 km | melhoria  2.2% | 15 escolas | tempo =  308.3s
+[00:39:27] Instancia2_G12 (K=1) | semente  4: custo =   94495.03 km | melhoria  4.2% | 15 escolas | tempo =  108.0s
+[00:40:43] Instancia2_G1 (K=1) | semente  8: custo =   14507.73 km | melhoria 21.8% | 15 escolas | tempo =  312.0s
+[00:41:02] Instancia2_G12 (K=1) | semente  5: custo =   94720.60 km | melhoria  4.0% | 15 escolas | tempo =   95.8s
+[00:42:30] Instancia2_G12 (K=1) | semente  6: custo =   94495.03 km | melhoria  4.2% | 15 escolas | tempo =   87.1s
+[00:44:01] Instancia2_G9 (K=1) | semente  7: custo =   13963.52 km | melhoria 32.9% | 14 escolas | tempo =  303.2s
+[00:44:06] Instancia2_G11 (K=1) | semente  3: custo =  102756.92 km | melhoria  2.2% | 15 escolas | tempo =  302.1s
+[00:44:10] Instancia2_G12 (K=1) | semente  7: custo =   94495.03 km | melhoria  4.2% | 15 escolas | tempo =  100.7s
+[00:45:52] Instancia2_G1 (K=1) | semente  9: custo =   14960.21 km | melhoria 19.3% | 15 escolas | tempo =  309.4s
+[00:46:23] Instancia2_G12 (K=1) | semente  8: custo =   95010.52 km | melhoria  3.7% | 15 escolas | tempo =  132.3s
+[00:48:27] Instancia2_G12 (K=1) | semente  9: custo =   94495.03 km | melhoria  4.2% | 15 escolas | tempo =  124.6s
+[00:49:03] Instancia2_G9 (K=1) | semente  8: custo =   13459.85 km | melhoria 35.3% | 14 escolas | tempo =  302.3s
+[00:49:10] Instancia2_G11 (K=1) | semente  4: custo =  102710.10 km | melhoria  2.2% | 15 escolas | tempo =  303.9s
+[00:50:27] Instancia2_G12 (K=1) | semente 10: custo =   95028.74 km | melhoria  3.7% | 15 escolas | tempo =  120.1s
+[00:51:00] Instancia2_G1 (K=1) | semente 10: custo =   15284.86 km | melhoria 17.6% | 15 escolas | tempo =  307.8s
+[00:51:45] Instancia2_G12 (K=2) | semente  1: custo =   92920.30 km | melhoria  5.8% | 15 escolas | tempo =   78.0s
+[00:53:49] Instancia2_G12 (K=2) | semente  2: custo =   93508.82 km | melhoria  5.2% | 15 escolas | tempo =  123.9s
+[00:54:07] Instancia2_G9 (K=1) | semente  9: custo =   13459.05 km | melhoria 35.3% | 14 escolas | tempo =  304.1s
+[00:54:17] Instancia2_G11 (K=1) | semente  5: custo =  102928.09 km | melhoria  2.0% | 15 escolas | tempo =  306.2s
+[00:55:46] Instancia2_G12 (K=2) | semente  3: custo =   92768.07 km | melhoria  5.9% | 15 escolas | tempo =  116.5s
+[00:56:02] Instancia2_G1 (K=2) | semente  1: custo =   12512.90 km | melhoria 32.5% | 15 escolas | tempo =  302.5s
+[00:57:03] Instancia2_G12 (K=2) | semente  4: custo =   93222.17 km | melhoria  5.5% | 14 escolas | tempo =   77.3s
+[00:58:04] Instancia2_G9 (K=1) | semente 10: custo =   13456.08 km | melhoria 35.4% | 14 escolas | tempo =  237.3s
+[00:58:07] Instancia2_G12 (K=2) | semente  5: custo =   93841.46 km | melhoria  4.9% | 15 escolas | tempo =   64.4s
+[00:58:15] Instancia2_G9 (K=2) | semente  1: custo =   17847.52 km | melhoria 14.3% | 14 escolas | tempo =   11.2s
+[00:59:17] Instancia2_G11 (K=1) | semente  6: custo =  102694.35 km | melhoria  2.2% | 15 escolas | tempo =  301.0s
+[00:59:54] Instancia2_G12 (K=2) | semente  6: custo =   93545.03 km | melhoria  5.2% | 15 escolas | tempo =  106.1s
+[01:00:00] Instancia2_G9 (K=2) | semente  2: custo =   14086.26 km | melhoria 32.3% | 14 escolas | tempo =  104.2s
+[01:01:03] Instancia2_G1 (K=2) | semente  2: custo =   12552.55 km | melhoria 32.3% | 15 escolas | tempo =  300.7s
+[01:01:33] Instancia2_G9 (K=2) | semente  3: custo =   13270.95 km | melhoria 36.2% | 14 escolas | tempo =   93.0s
+[01:01:42] Instancia2_G12 (K=2) | semente  7: custo =   92550.57 km | melhoria  6.2% | 15 escolas | tempo =  108.1s
+[01:03:10] Instancia2_G9 (K=2) | semente  4: custo =   13141.36 km | melhoria 36.9% | 14 escolas | tempo =   97.6s
+[01:03:27] Instancia2_G9 (K=2) | semente  5: custo =   17415.65 km | melhoria 16.3% | 14 escolas | tempo =   16.3s
+[01:03:52] Instancia2_G12 (K=2) | semente  8: custo =   93016.54 km | melhoria  5.7% | 15 escolas | tempo =  130.8s
+[01:04:20] Instancia2_G11 (K=1) | semente  7: custo =  102842.25 km | melhoria  2.1% | 15 escolas | tempo =  302.1s
+[01:05:59] Instancia2_G12 (K=2) | semente  9: custo =   94605.75 km | melhoria  4.1% | 15 escolas | tempo =  126.0s
+[01:06:04] Instancia2_G1 (K=2) | semente  3: custo =   12765.99 km | melhoria 31.2% | 15 escolas | tempo =  300.4s
+[01:06:06] Instancia2_G9 (K=2) | semente  6: custo =   12777.29 km | melhoria 38.6% | 14 escolas | tempo =  158.8s
+[01:08:16] Instancia2_G12 (K=2) | semente 10: custo =   92858.13 km | melhoria  5.9% | 15 escolas | tempo =  137.3s
+[01:08:16] Instancia2_G12 K=1 FINALIZADA: melhor 94495.03 | média 94766.17 | tempo médio 89.54s
+[01:08:16] Instancia2_G12 K=2 FINALIZADA: melhor 92550.57 | média 93283.68 | tempo médio 107.64s
+[01:08:16] Iniciando instancia_2_G13 (arquivo: instancia_2_G13.txt)
+[01:08:16] instancia_2_G13: construtivo concluído em 0.03s | custo inicial = 1294.27 km
+[01:08:16] instancia_2_G13 (K=1) | semente  1: custo =    1234.02 km | melhoria  4.7% | 16 escolas | tempo =    0.2s
+[01:08:16] instancia_2_G13 (K=1) | semente  2: custo =    1234.02 km | melhoria  4.7% | 16 escolas | tempo =    0.2s
+[01:08:17] instancia_2_G13 (K=1) | semente  3: custo =    1234.02 km | melhoria  4.7% | 16 escolas | tempo =    0.2s
+[01:08:17] instancia_2_G13 (K=1) | semente  4: custo =    1234.02 km | melhoria  4.7% | 16 escolas | tempo =    0.2s
+[01:08:17] instancia_2_G13 (K=1) | semente  5: custo =    1234.02 km | melhoria  4.7% | 16 escolas | tempo =    0.1s
+[01:08:17] instancia_2_G13 (K=1) | semente  6: custo =    1234.02 km | melhoria  4.7% | 16 escolas | tempo =    0.1s
+[01:08:17] instancia_2_G13 (K=1) | semente  7: custo =    1234.02 km | melhoria  4.7% | 16 escolas | tempo =    0.2s
+[01:08:17] instancia_2_G13 (K=1) | semente  8: custo =    1233.67 km | melhoria  4.7% | 16 escolas | tempo =    0.2s
+[01:08:17] instancia_2_G13 (K=1) | semente  9: custo =    1234.02 km | melhoria  4.7% | 16 escolas | tempo =    0.2s
+[01:08:18] instancia_2_G13 (K=1) | semente 10: custo =    1234.02 km | melhoria  4.7% | 16 escolas | tempo =    0.2s
+[01:08:18] instancia_2_G13 (K=2) | semente  1: custo =    1011.91 km | melhoria 21.8% | 16 escolas | tempo =    0.5s
+[01:08:18] instancia_2_G13 (K=2) | semente  2: custo =    1027.21 km | melhoria 20.6% | 16 escolas | tempo =    0.3s
+[01:08:19] instancia_2_G13 (K=2) | semente  3: custo =    1000.61 km | melhoria 22.7% | 16 escolas | tempo =    0.3s
+[01:08:19] instancia_2_G13 (K=2) | semente  4: custo =     974.75 km | melhoria 24.7% | 16 escolas | tempo =    0.4s
+[01:08:20] instancia_2_G13 (K=2) | semente  5: custo =    1005.76 km | melhoria 22.3% | 16 escolas | tempo =    0.4s
+[01:08:20] instancia_2_G13 (K=2) | semente  6: custo =    1049.00 km | melhoria 19.0% | 16 escolas | tempo =    0.7s
+[01:08:21] instancia_2_G13 (K=2) | semente  7: custo =    1044.98 km | melhoria 19.3% | 16 escolas | tempo =    0.5s
+[01:08:21] instancia_2_G13 (K=2) | semente  8: custo =    1053.95 km | melhoria 18.6% | 16 escolas | tempo =    0.7s
+[01:08:22] instancia_2_G13 (K=2) | semente  9: custo =    1009.11 km | melhoria 22.0% | 16 escolas | tempo =    0.8s
+[01:08:23] instancia_2_G13 (K=2) | semente 10: custo =    1009.94 km | melhoria 22.0% | 16 escolas | tempo =    0.5s
+[01:08:23] Instancia2_G13 K=1 FINALIZADA: melhor 1233.67 | média 1233.99 | tempo médio 0.20s
+[01:08:23] Instancia2_G13 K=2 FINALIZADA: melhor 974.75 | média 1018.72 | tempo médio 0.52s
+[01:08:23] Iniciando instancia_2_G14 (arquivo: instancia_2_G14.txt)
+[01:08:23] instancia_2_G14: construtivo concluído em 0.00s | custo inicial = 2147.94 km
+[01:08:23] instancia_2_G14 (K=1) | semente  1: custo =    1953.05 km | melhoria  9.1% | 12 escolas | tempo =    0.1s
+[01:08:23] instancia_2_G14 (K=1) | semente  2: custo =    1953.05 km | melhoria  9.1% | 12 escolas | tempo =    0.1s
+[01:08:23] instancia_2_G14 (K=1) | semente  3: custo =    1953.05 km | melhoria  9.1% | 12 escolas | tempo =    0.1s
+[01:08:23] instancia_2_G14 (K=1) | semente  4: custo =    1953.05 km | melhoria  9.1% | 12 escolas | tempo =    0.1s
+[01:08:23] instancia_2_G14 (K=1) | semente  5: custo =    1953.05 km | melhoria  9.1% | 12 escolas | tempo =    0.1s
+[01:08:23] instancia_2_G14 (K=1) | semente  6: custo =    1953.05 km | melhoria  9.1% | 12 escolas | tempo =    0.1s
+[01:08:23] instancia_2_G14 (K=1) | semente  7: custo =    1953.05 km | melhoria  9.1% | 12 escolas | tempo =    0.1s
+[01:08:23] instancia_2_G14 (K=1) | semente  8: custo =    1953.05 km | melhoria  9.1% | 12 escolas | tempo =    0.1s
+[01:08:24] instancia_2_G14 (K=1) | semente  9: custo =    1953.05 km | melhoria  9.1% | 12 escolas | tempo =    0.1s
+[01:08:24] instancia_2_G14 (K=1) | semente 10: custo =    1953.05 km | melhoria  9.1% | 12 escolas | tempo =    0.1s
+[01:08:24] instancia_2_G14 (K=2) | semente  1: custo =    2092.95 km | melhoria  2.6% | 12 escolas | tempo =    0.0s
+[01:08:24] instancia_2_G14 (K=2) | semente  2: custo =    2032.08 km | melhoria  5.4% | 12 escolas | tempo =    0.0s
+[01:08:24] instancia_2_G14 (K=2) | semente  3: custo =    1988.86 km | melhoria  7.4% | 12 escolas | tempo =    0.1s
+[01:08:24] instancia_2_G14 (K=2) | semente  4: custo =    2058.92 km | melhoria  4.1% | 12 escolas | tempo =    0.1s
+[01:08:24] instancia_2_G14 (K=2) | semente  5: custo =    2034.16 km | melhoria  5.3% | 12 escolas | tempo =    0.1s
+[01:08:24] instancia_2_G14 (K=2) | semente  6: custo =    2017.15 km | melhoria  6.1% | 12 escolas | tempo =    0.1s
+[01:08:24] instancia_2_G14 (K=2) | semente  7: custo =    2092.75 km | melhoria  2.6% | 12 escolas | tempo =    0.0s
+[01:08:24] instancia_2_G14 (K=2) | semente  8: custo =    2061.06 km | melhoria  4.0% | 12 escolas | tempo =    0.1s
+[01:08:24] instancia_2_G14 (K=2) | semente  9: custo =    2039.29 km | melhoria  5.1% | 12 escolas | tempo =    0.0s
+[01:08:24] instancia_2_G14 (K=2) | semente 10: custo =    1889.17 km | melhoria 12.0% | 12 escolas | tempo =    0.1s
+[01:08:24] Instancia2_G14 K=1 FINALIZADA: melhor 1953.05 | média 1953.05 | tempo médio 0.10s
+[01:08:24] Instancia2_G14 K=2 FINALIZADA: melhor 1889.17 | média 2030.64 | tempo médio 0.06s
+[01:09:20] Instancia2_G11 (K=1) | semente  8: custo =  102830.81 km | melhoria  2.1% | 15 escolas | tempo =  300.1s
+[01:09:42] Instancia2_G9 (K=2) | semente  7: custo =   12310.48 km | melhoria 40.9% | 14 escolas | tempo =  216.5s
+[01:09:59] Instancia2_G9 (K=2) | semente  8: custo =   16935.66 km | melhoria 18.6% | 14 escolas | tempo =   17.3s
+[01:10:10] Instancia2_G9 (K=2) | semente  9: custo =   17534.56 km | melhoria 15.8% | 14 escolas | tempo =   10.3s
+[01:10:36] Instancia2_G9 (K=2) | semente 10: custo =   16954.06 km | melhoria 18.6% | 14 escolas | tempo =   26.0s
+[01:10:36] Instancia2_G9 K=1 FINALIZADA: melhor 13456.08 | média 13637.96 | tempo médio 281.82s
+[01:10:36] Instancia2_G9 K=2 FINALIZADA: melhor 12310.48 | média 15227.38 | tempo médio 75.17s
+[01:11:04] Instancia2_G1 (K=2) | semente  4: custo =   12442.00 km | melhoria 32.9% | 15 escolas | tempo =  300.4s
+[01:14:22] Instancia2_G11 (K=1) | semente  9: custo =  102744.73 km | melhoria  2.2% | 15 escolas | tempo =  301.9s
+[01:14:22] Instancia2_G1 (K=2) | semente  5: custo =   12453.35 km | melhoria 32.8% | 15 escolas | tempo =  198.2s
+[01:19:25] Instancia2_G1 (K=2) | semente  6: custo =   13282.32 km | melhoria 28.4% | 15 escolas | tempo =  300.0s
+[01:19:27] Instancia2_G11 (K=1) | semente 10: custo =  102782.12 km | melhoria  2.1% | 15 escolas | tempo =  303.2s
+[01:21:14] Instancia2_G11 (K=2) | semente  1: custo =  104743.34 km | melhoria  0.3% | 13 escolas | tempo =  106.5s
+[01:23:45] Instancia2_G11 (K=2) | semente  2: custo =  104560.10 km | melhoria  0.4% | 13 escolas | tempo =  150.6s
+[01:24:26] Instancia2_G1 (K=2) | semente  7: custo =   12392.65 km | melhoria 33.2% | 15 escolas | tempo =  301.6s
+[01:27:24] Instancia2_G11 (K=2) | semente  3: custo =  104652.34 km | melhoria  0.3% | 13 escolas | tempo =  219.7s
+[01:28:59] Instancia2_G11 (K=2) | semente  4: custo =  104783.40 km | melhoria  0.2% | 13 escolas | tempo =   95.3s
+[01:29:27] Instancia2_G1 (K=2) | semente  8: custo =   13783.83 km | melhoria 25.7% | 15 escolas | tempo =  300.3s
+[01:30:49] Instancia2_G11 (K=2) | semente  5: custo =  104740.03 km | melhoria  0.3% | 13 escolas | tempo =  110.0s
+[01:32:18] Instancia2_G11 (K=2) | semente  6: custo =  104651.71 km | melhoria  0.4% | 13 escolas | tempo =   89.0s
+[01:34:28] Instancia2_G1 (K=2) | semente  9: custo =   12045.78 km | melhoria 35.0% | 15 escolas | tempo =  301.0s
+[01:34:46] Instancia2_G11 (K=2) | semente  7: custo =  104799.71 km | melhoria  0.2% | 13 escolas | tempo =  147.8s
+[01:36:34] Instancia2_G11 (K=2) | semente  8: custo =  104387.15 km | melhoria  0.6% | 13 escolas | tempo =  107.9s
+[01:38:59] Instancia2_G11 (K=2) | semente  9: custo =  104495.72 km | melhoria  0.5% | 13 escolas | tempo =  145.2s
+[01:39:29] Instancia2_G1 (K=2) | semente 10: custo =   14513.50 km | melhoria 21.7% | 15 escolas | tempo =  301.1s
+[01:39:29] Instancia2_G1 K=1 FINALIZADA: melhor 14308.06 | média 14901.18 | tempo médio 309.16s
+[01:39:29] Instancia2_G1 K=2 FINALIZADA: melhor 12045.78 | média 12874.49 | tempo médio 290.82s
+[01:40:44] Instancia2_G11 (K=2) | semente 10: custo =  104911.67 km | melhoria  0.1% | 13 escolas | tempo =  105.0s
+[01:40:44] Instancia2_G11 K=1 FINALIZADA: melhor 102694.35 | média 102779.65 | tempo médio 303.38s
+[01:40:44] Instancia2_G11 K=2 FINALIZADA: melhor 104387.15 | média 104672.52 | tempo médio 127.80s
+[01:40:45] lote concluído: 46 (instância, K) com resultado, 10 sem resultado
+[01:40:45] SEM RESULTADO Instancia1_G2 K=1: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[01:40:45] SEM RESULTADO Instancia2_G2 K=1: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[01:40:45] SEM RESULTADO Instancia2_G3 K=1: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[01:40:45] SEM RESULTADO Instancia2_G5 K=1: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[01:40:45] SEM RESULTADO Instancia2_G7 K=1: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[01:40:45] SEM RESULTADO Instancia1_G2 K=2: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[01:40:45] SEM RESULTADO Instancia2_G2 K=2: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[01:40:45] SEM RESULTADO Instancia2_G3 K=2: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[01:40:45] SEM RESULTADO Instancia2_G5 K=2: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[01:40:45] SEM RESULTADO Instancia2_G7 K=2: FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+[01:40:45] detalhes e traceback de cada falha em falhas.log

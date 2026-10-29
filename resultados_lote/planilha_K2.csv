@@ -1,0 +1,29 @@
+instancia,melhor_resultado,media_dos_resultados,tempo_medio_s,pior_resultado,desvio_padrao,custo_inicial,tempo_construtivo,media_melhoria_percentual,media_tempo_busca_local,media_escolas_usadas,media_ocupacao_minima,media_ocupacao_media,media_ocupacao_maxima,media_distancia_media,media_distancia_maxima,execucoes
+Instancia1_G1,24540.795,25404.4142,297.2994,26089.04,430.3694,30751.9065,1.809,17.3891,295.4904,15.0,0.4921,0.9438,1.0,5.6229,14.0758,10
+Instancia1_G2,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,,,,,,,,,,,,,
+Instancia1_G3,990.0437,1003.1927,188.1737,1014.379,6.7809,1104.1936,0.5842,9.1471,187.5895,20.0,0.6104,0.9456,1.0,0.1695,1.906,10
+Instancia1_G4,8851.4446,10222.6205,83.2899,11286.8093,707.7503,15584.4727,0.0209,34.4051,83.269,12.0,0.3627,0.8554,1.0,2.5588,9.9196,10
+Instancia1_G5,11798.176,12915.2961,82.1316,14609.9316,893.4062,18349.015,0.6997,29.6131,81.4319,15.0,0.4515,0.9068,1.0,3.0656,10.4864,10
+Instancia1_G6,12201.9142,13706.6603,262.7404,14883.2737,828.1934,20288.4647,0.1625,32.4411,262.5779,15.0,0.4878,0.9081,1.0,2.6344,11.0333,10
+Instancia1_G7,16359.54,17342.296,50.2,21484.97,1416.8122,27146.69,0.0318,36.1164,50.1682,11.0,0.1646,0.8319,1.0,5.166,32.16,10
+Instancia1_G8,1266.0483,1266.0483,0.0446,1266.0483,0.0,1266.0483,0.0391,0.0,0.0055,12.0,0.6774,0.8495,1.0,4.0065,10.407,10
+Instancia1_G9,6658.1343,7877.5775,164.5837,10325.4031,1373.0417,14105.1012,0.04,44.1509,164.5437,14.0,0.3483,0.8647,1.0,2.1314,17.2017,10
+Instancia1_G10,7556.5811,8778.4447,139.3976,9892.1342,656.4284,14317.0403,0.0442,38.6853,139.3534,15.0,0.4407,0.9226,1.0,1.8504,8.3781,10
+Instancia1_G11,28198.3277,32251.7784,148.5737,39518.9999,2959.7982,45872.3535,0.0151,29.6923,148.5587,10.0,0.4675,0.8661,1.0,9.3429,30.7824,10
+Instancia1_G12,16429.9673,17455.5227,134.3843,17911.7161,467.2991,22512.7349,0.6864,22.4638,133.6979,15.0,0.4273,0.8497,1.0,4.5222,15.4436,10
+Instancia1_G13,1065.4565,1102.9929,0.2479,1139.0399,25.6736,1468.1832,0.0042,24.8736,0.2437,13.7,0.2775,0.8945,1.0,3.0639,8.9328,10
+Instancia1_G14,1167.9242,1231.458,0.1363,1282.9677,34.2059,1741.9025,0.0026,29.3039,0.1337,12.0,0.4193,0.8657,1.0,3.3283,8.7281,10
+Instancia2_G1,12045.784,12874.4881,290.8238,14513.4983,721.7382,18543.0636,0.1954,30.5698,290.6284,15.0,0.2993,0.8452,1.0,2.8984,13.3451,10
+Instancia2_G2,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,,,,,,,,,,,,,
+Instancia2_G3,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,,,,,,,,,,,,,
+Instancia2_G4,8216.1043,8945.421,52.7865,9920.1189,607.4962,11838.5364,0.021,24.4381,52.7655,12.0,0.37,0.8487,1.0,2.2532,10.6973,10
+Instancia2_G5,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,,,,,,,,,,,,,
+Instancia2_G6,24059.5769,24757.8415,148.4061,25274.8893,394.7442,29951.8319,0.0291,17.3411,148.377,15.0,0.6242,0.9309,1.0,5.1482,71.8315,10
+Instancia2_G7,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,FALHA em construtivo: ValueError: não foi possível cobrir a demanda de todos os tipos de prova,,,,,,,,,,,,,
+Instancia2_G8,140.4481,140.4481,0.0154,140.4481,0.0,140.4481,0.0121,0.0,0.0033,12.0,0.6774,0.8495,1.0,0.4445,1.4056,10
+Instancia2_G9,12310.4815,15227.3798,75.169,17847.5212,2164.9228,20816.9092,0.0355,26.8509,75.1335,14.0,0.4887,0.9464,1.0,3.6924,18.0233,10
+Instancia2_G10,13002.3898,13688.175,15.8756,14122.3485,428.5284,14393.3216,0.5704,4.8991,15.3052,15.0,0.8993,0.9814,1.0,2.6756,12.05,10
+Instancia2_G11,104387.15,104672.517,127.8034,104911.6675,148.7988,105019.8758,0.116,0.3308,127.6874,13.0,0.7493,0.9764,1.0,23.5008,33.6225,10
+Instancia2_G12,92550.5679,93283.6832,107.6426,94605.7493,580.4807,98632.7011,0.7898,5.4232,106.8528,14.9,0.4049,0.8724,1.0,24.1668,32.326,10
+Instancia2_G13,974.7474,1018.7221,0.5203,1053.9518,23.5906,1294.2662,0.0267,21.2896,0.4936,16.0,0.675,0.9536,1.0,2.6668,7.2491,10
+Instancia2_G14,1889.1717,2030.6387,0.0566,2092.9512,56.1215,2147.9389,0.0043,5.461,0.0523,12.0,0.6926,0.9495,1.0,5.6095,10.8594,10

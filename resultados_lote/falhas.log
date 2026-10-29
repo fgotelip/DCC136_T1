@@ -1,0 +1,85 @@
+===== [2026-10-28 22:02:27] Instancia1_G2 =====
+etapa   : construtivo
+erro    : ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+contexto: arquivo Instancia1_G2.txt (9 KB)
+contexto: 100 candidatos, 5 escolas, capacidade total das salas = 105
+contexto: candidatos por tipo de prova: M1=17, M2=17, M3d=17, M3e=17, M3h=16, M3s=16
+traceback:
+Traceback (most recent call last):
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\main.py", line 159, in processar_instancia
+    solucao_inicial = construir(tipo_de_prova_do_candidato, capacidades_das_salas, distancias)
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\construtivo.py", line 106, in construir
+    tipo_da_escola = definir_tipo_de_cada_escola(tipo_de_prova_do_candidato, capacidades_das_salas, distancias)
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\construtivo.py", line 64, in definir_tipo_de_cada_escola
+    raise ValueError("não foi possível cobrir a demanda de todos os tipos de prova")
+ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+
+
+===== [2026-10-29 00:01:30] Instancia2_G2 =====
+etapa   : construtivo
+erro    : ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+contexto: arquivo Instancia2_G2.txt (9 KB)
+contexto: 109 candidatos, 5 escolas, capacidade total das salas = 121
+contexto: candidatos por tipo de prova: M1=28, M2=27, M3d=13, M3e=14, M3h=14, M3s=13
+traceback:
+Traceback (most recent call last):
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\main.py", line 159, in processar_instancia
+    solucao_inicial = construir(tipo_de_prova_do_candidato, capacidades_das_salas, distancias)
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\construtivo.py", line 106, in construir
+    tipo_da_escola = definir_tipo_de_cada_escola(tipo_de_prova_do_candidato, capacidades_das_salas, distancias)
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\construtivo.py", line 64, in definir_tipo_de_cada_escola
+    raise ValueError("não foi possível cobrir a demanda de todos os tipos de prova")
+ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+
+
+===== [2026-10-29 00:01:33] Instancia2_G3 =====
+etapa   : construtivo
+erro    : ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+contexto: arquivo Instancia2_G3.txt (541 KB)
+contexto: 3858 candidatos, 10 escolas, capacidade total das salas = 4612
+contexto: candidatos por tipo de prova: M1=643, M2=662, M3d=639, M3e=685, M3h=585, M3s=644
+traceback:
+Traceback (most recent call last):
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\main.py", line 159, in processar_instancia
+    solucao_inicial = construir(tipo_de_prova_do_candidato, capacidades_das_salas, distancias)
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\construtivo.py", line 106, in construir
+    tipo_da_escola = definir_tipo_de_cada_escola(tipo_de_prova_do_candidato, capacidades_das_salas, distancias)
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\construtivo.py", line 64, in definir_tipo_de_cada_escola
+    raise ValueError("não foi possível cobrir a demanda de todos os tipos de prova")
+ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+
+
+===== [2026-10-29 00:04:06] Instancia2_G5 =====
+etapa   : construtivo
+erro    : ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+contexto: arquivo Instancia2_G5.txt (741 KB)
+contexto: 4628 candidatos, 15 escolas, capacidade total das salas = 5003
+contexto: candidatos por tipo de prova: M1=781, M2=767, M3d=777, M3e=770, M3h=773, M3s=760
+traceback:
+Traceback (most recent call last):
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\main.py", line 159, in processar_instancia
+    solucao_inicial = construir(tipo_de_prova_do_candidato, capacidades_das_salas, distancias)
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\construtivo.py", line 106, in construir
+    tipo_da_escola = definir_tipo_de_cada_escola(tipo_de_prova_do_candidato, capacidades_das_salas, distancias)
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\construtivo.py", line 64, in definir_tipo_de_cada_escola
+    raise ValueError("não foi possível cobrir a demanda de todos os tipos de prova")
+ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+
+
+===== [2026-10-29 00:11:05] Instancia2_G7 =====
+etapa   : construtivo
+erro    : ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+contexto: arquivo Instancia2_G7.txt (1446 KB)
+contexto: 6798 candidatos, 20 escolas, capacidade total das salas = 6940
+contexto: candidatos por tipo de prova: M1=2405, M2=2141, M3d=367, M3e=999, M3h=318, M3s=568
+traceback:
+Traceback (most recent call last):
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\main.py", line 159, in processar_instancia
+    solucao_inicial = construir(tipo_de_prova_do_candidato, capacidades_das_salas, distancias)
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\construtivo.py", line 106, in construir
+    tipo_da_escola = definir_tipo_de_cada_escola(tipo_de_prova_do_candidato, capacidades_das_salas, distancias)
+  File "C:\Users\felip\Desktop\estudos\programacao\inteligencia computacional\Trabalhos\T1\dcc136_t1\src\construtivo.py", line 64, in definir_tipo_de_cada_escola
+    raise ValueError("não foi possível cobrir a demanda de todos os tipos de prova")
+ValueError: não foi possível cobrir a demanda de todos os tipos de prova
+
+
