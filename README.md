@@ -10,6 +10,7 @@ escola (1 ou 2, escolhido na execução).
 
 - Python 3.9 ou mais novo
 - numpy
+- pandas e matplotlib (só para gerar os gráficos e a tabela do relatório)
 
 ```
 pip install -r requirements.txt
@@ -110,6 +111,7 @@ Com 1 tipo por escola cada execução leva poucos segundos; com 2 tipos, de 15 a
 | `progresso.log` | andamento: início, construtivo, cada semente, final de cada K e um resumo das falhas |
 | `falhas.log` | detalhe de cada falha: etapa, erro, dados da instância (candidatos, escolas, capacidade, demanda por tipo) e traceback |
 | `instancias/` | instâncias extraídas do zip |
+| `tabela_resultados.tex` e `figuras/` | tabela e gráficos do relatório, gerados por `src/gerar_graficos.py` (veja a seção abaixo) |
 
 **Colunas de `planilha_K<k>.csv`:** `instancia`, **`melhor_resultado`, `media_dos_resultados`,
 `tempo_medio_s`** (as 3 colunas para copiar e colar na planilha; o tempo é construtivo + busca local),
@@ -137,6 +139,35 @@ C2, E5, 7, M2
 ...
 ```
 
+## Gráficos e tabela do relatório
+
+O script `src/gerar_graficos.py` lê os resultados do lote (`resultados_lote/resultados_completos.csv` e
+`planilha_K1.csv`) e gera, na própria pasta `resultados_lote/`, tudo o que a seção de experimentos do
+relatório usa. Rode depois do modo lote (modo 2):
+
+```
+python src/gerar_graficos.py
+```
+
+| Saída | Conteúdo |
+|---|---|
+| `resultados_lote/tabela_resultados.tex` | tabela única com as 28 instâncias, K=1 e K=2 lado a lado (inicial, melhor, média ± desvio, pior, melhoria, tempos, execuções que pararam no limite de tempo, escolas usadas, ocupação e distâncias) |
+| `resultados_lote/figuras/fig_melhoria.pdf` | melhoria percentual por instância, com desvio entre sementes |
+| `resultados_lote/figuras/fig_variabilidade.pdf` | custo final / custo inicial em cada semente (boxplot) |
+| `resultados_lote/figuras/fig_tempo.pdf` | tempo de construção e de busca vs. candidatos e salas, e ganho vs. tempo |
+| `resultados_lote/figuras/fig_solucao.pdf` | ocupação mínima das escolas e razão distância máxima / média |
+| `resultados_lote/figuras/fig_k1_vs_k2.pdf` | K=1 vs. K=2 e o efeito da folga de capacidade (Seção 5.2) |
+| `resultados_lote/figuras/resumo_estatisticas.txt` | números citados no texto do relatório |
+| `resultados_lote/figuras/info_instancias.csv` | cache com candidatos, escolas e salas de cada instância (apague para recalcular) |
+
+Observações:
+
+- Os nomes das instâncias são normalizados (por exemplo, `instancia_1_G13` e `Instancia1_G7(1)`
+  viram `Instancia1_G13` e `Instancia1_G7`). Instâncias que falharam na construção aparecem como
+  "inviável" na tabela e ficam fora dos gráficos.
+- O desvio padrão é populacional, e o limite de tempo considerado é o padrão de 300 s
+  (constante `LIMITE_TEMPO` do script).
+
 ## Formato da instância
 
 Arquivo de texto com as seções `# CANDIDATOS`, `# ESCOLAS` e `# MATRIZ_DISTANCIAS` (linhas =
@@ -152,6 +183,8 @@ de salas e de tipos de prova é lido do arquivo, não é fixo no código.
 | `src/construtivo.py` | heurística construtiva (solução inicial) |
 | `src/busca_local.py` | busca local com três vizinhanças |
 | `src/main.py` | executa os experimentos (uma instância ou lote), grava os csv, o zip e os logs |
+| `src/gerar_graficos.py` | gera os gráficos e a tabela do relatório a partir dos resultados do lote |
+| `relatorios/` | relatório em LaTeX (SBC) e slides |
 | `docs/construtivo.md` | descrição e justificativa do construtivo |
 | `docs/busca_local.md` | função de avaliação, vizinhanças, busca e resultados |
 

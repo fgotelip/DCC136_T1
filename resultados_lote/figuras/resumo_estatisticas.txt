@@ -1,0 +1,33 @@
+instâncias viáveis: 23 | inviáveis: 5 ['Instancia1_G2', 'Instancia2_G2', 'Instancia2_G3', 'Instancia2_G5', 'Instancia2_G7']
+execuções: 460 | inviáveis nenhuma: 0
+K=1: melhoria média das médias=15.82% mediana=16.35% min=2.13 (Instancia2_G11) max=48.56 (Instancia1_G9)
+K=1: t_busca min=0.07 max=309.0 (Instancia2_G1) mediana=62.4; t_constr max=1.81
+K=1: dp relativo médio (dp/média custo) = 0.58%  melh_dp médio=0.47 p.p.
+K=2: melhoria média das médias=21.08% mediana=24.44% min=0.00 (Instancia1_G8) max=44.15 (Instancia1_G9)
+K=2: t_busca min=0.00 max=295.5 (Instancia1_G1) mediana=83.3; t_constr max=1.81
+K=2: dp relativo médio (dp/média custo) = 4.76%  melh_dp médio=3.31 p.p.
+K=1: execuções que pararam no limite de tempo: 44 de 230; instâncias afetadas: ['I1-G1', 'I1-G3', 'I1-G6', 'I1-G9', 'I2-G1', 'I2-G11', 'I2-G9']
+K=2: execuções que pararam no limite de tempo: 23 de 230; instâncias afetadas: ['I1-G1', 'I1-G3', 'I1-G6', 'I2-G1']
+tempo total (s) construção+busca, somando médias K1/K2: 2495 2370
+K=2 > K=1 (média): 16 de 23
+K=2 < K=1 (média): [('I1-G8', np.float64(-5.5)), ('I1-G9', np.float64(-4.4)), ('I2-G10', np.float64(-2.4)), ('I2-G11', np.float64(-1.8)), ('I2-G14', np.float64(-3.6)), ('I2-G8', np.float64(-16.6)), ('I2-G9', np.float64(-7.6))]
+bloqueio (melhoria K=2 = 0): ['Instancia1_G8', 'Instancia2_G8']
+ocupação crítica >94%: ['Instancia2_G10', 'Instancia2_G14', 'Instancia2_G9']
+folga das instâncias de bloqueio (%): {'I1-G8': np.float64(15.1), 'I2-G8': np.float64(15.1)}
+pequenas (<1000 cand.): 6 t_busca máx K1/K2: 0.34 0.49
+grandes (>=1000): 17 cand min/max 3357 5917
+correlação log(salas)~log(t_busca) K2: 0.46
+correlação log(cand)~log(t_busca) K2: 0.16
+razão t_busca K2/K1 (grandes) mediana: 1.11
+escolas usadas / disponíveis K1, K2 (média %): 100.0 99.3
+instâncias com escolas não utilizadas (média de escolas < disponíveis): [('I1-G13', 2, 13.7, 14), ('I2-G11', 2, 13.0, 15), ('I2-G12', 2, 14.9, 15)]
+ocupação mín. média K1/K2 (%): 52.7 50.0
+cauda max/med K1/K2 mediana: 3.32 3.42
+
+=== G4 ===
+             inst  K    inicial     melhor      media       dp       pior    melh  t_constr  t_busca  escolas  ocup_min  ocup_med  dist_med  dist_max  cauda
+14  Instancia1_G4  1  15584.473  12362.943  12473.786   69.510  12601.346  19.960     0.021    3.541     12.0     0.533     0.855     3.122    10.346  3.313
+15  Instancia1_G4  2  15584.473   8851.445  10222.621  707.750  11286.809  34.405     0.021   83.269     12.0     0.363     0.855     2.559     9.920  3.877
+38  Instancia2_G4  1  11838.536   9867.920   9902.838   42.016   9988.385  16.351     0.021    3.653     12.0     0.540     0.850     2.494    10.654  4.271
+39  Instancia2_G4  2  11838.536   8216.104   8945.421  607.496   9920.119  24.438     0.021   52.765     12.0     0.370     0.849     2.253    10.697  4.747
+G4: escolas usadas = 12 em todas as execuções: True
