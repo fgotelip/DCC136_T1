@@ -17,48 +17,70 @@ pip install -r requirements.txt
 
 ## Como executar
 
-Dentro da pasta `src/`:
+Tudo é feito pelo `src/main.py`, que tem dois modos. Rode a partir da pasta `src/` (também funciona
+da raiz do projeto, com `python src/main.py ...`).
+
+### Modo 1 — uma instância
 
 ```
 python main.py Instancia1_G4.txt --max-tipos 1
 python main.py Instancia1_G4.txt --max-tipos 2 --execucoes 10
+python main.py Instancia1_G4.txt --max-tipos 1 2 --execucoes 10     # os dois K de uma vez
 ```
 
-Também funciona a partir da raiz do projeto (`python src/main.py ...`). O nome da instância pode ser
-o caminho completo ou só o nome do arquivo: o programa procura também na pasta `instancias/`.
+O nome da instância pode ser o caminho completo ou só o nome do arquivo: o programa procura também
+na pasta `instancias/`. Os resultados são **acrescentados** em `resultados/tabela_resultados.csv`.
+
+### Modo 2 — lote (todas as instâncias de um zip, em paralelo)
+
+**Comando para rodar tudo** (2 valores de K, 10 execuções cada, 4 instâncias em paralelo):
+
+```
+python main.py --zip ../drive-download.zip --jobs 4
+```
+
+Troque `../drive-download.zip` pelo caminho do zip com as instâncias e ajuste `--jobs` para o número de
+núcleos da sua máquina. O zip pode ter zips dentro; nomes como `Instancia1_G7(1).txt` e
+`instancia_2_G13.txt` são reconhecidos (se houver arquivos repetidos, vale o maior).
+Outros exemplos:
+
+```
+python main.py --zip ../drive-download.zip --jobs 4 --so-instancias Instancia1_G4 Instancia2_G4
+python main.py --zip ../drive-download.zip --jobs 4 --max-tipos 1          # só K=1
+python main.py --zip ../drive-download.zip --jobs 4 --refazer-falhas       # tenta de novo o que falhou
+```
+
+- **Retomada:** o lote pode ser interrompido (Ctrl+C) e rodado de novo com o mesmo comando. O que já
+  foi calculado (lido de `resultados_lote/lote.zip` e da pasta `lote/`) é pulado.
+- **Falhas:** uma (instância, K) que falhou não é refeita na retomada (o construtivo é determinístico);
+  use `--refazer-falhas` para forçar uma nova tentativa.
+- Com `--jobs` maior que 1 os tempos medidos ficam maiores (as instâncias disputam a CPU). Para tempos
+  fiéis use `--jobs 1`.
 
 ### Parâmetros
 
 | Parâmetro | Padrão | Significado |
 |---|---|---|
-| `instancia` | (obrigatório) | arquivo da instância |
-| `--max-tipos` | `1` | máximo de tipos de prova por escola: `1` ou `2` |
-| `--execucoes` | `1` | quantas execuções da busca local, cada uma com uma semente diferente |
+| `instancia` | — | arquivo da instância (modo 1) |
+| `--zip` | — | zip com as instâncias; **liga o modo lote** (modo 2) |
+| `--max-tipos` | `1` (modo 1) / `1 2` (modo 2) | máximo(s) de tipos de prova por escola; aceita `1`, `2` ou `1 2` |
+| `--execucoes` | `1` (modo 1) / `10` (modo 2) | execuções da busca local, cada uma com uma semente diferente |
 | `--semente-inicial` | `1` | semente da primeira execução (as seguintes usam +1, +2, ...) |
 | `--limite-de-tempo` | `300` | tempo máximo, em segundos, de cada busca local |
+| `--limite-nos` | do construtivo (modo 1) / `5000000` (modo 2) | limite de nós do backtracking do construtivo |
+| `--jobs` | `1` | modo 2: instâncias em paralelo |
+| `--saida` | `resultados_lote/` | modo 2: pasta de saída |
+| `--so-instancias` | todas | modo 2: roda só estas, ex.: `Instancia1_G4 Instancia2_G4` |
+| `--refazer-falhas` | desligado | modo 2: refaz as (instância, K) que falharam antes |
 
 O construtivo é determinístico (uma só execução). A busca local tem componente aleatório
-(ordem em que testa os movimentos), por isso o parâmetro `--execucoes`: com várias sementes
-o programa mostra média, desvio padrão, melhor e pior custo.
-
-### Exemplo de saída
-
-```
-Instancia1_G4 | máximo de tipos por escola = 1
-solução inicial: 15584.47 km (0.01s)
-semente 1: 12533.80 km (melhoria 19.6%, 2.2s, 12 escolas usadas)
-semente 2: 12452.33 km (melhoria 20.1%, 2.9s, 12 escolas usadas)
-custo final: média 12493.07 | desvio padrão 40.74 | melhor 12452.33 | pior 12533.80
-melhor solução salva em .../resultados/solucoes/Instancia1_G4_max1tipos.txt
-```
+(ordem em que testa os movimentos), por isso o parâmetro `--execucoes`.
 
 ### Reproduzir os experimentos do relatório
 
 ```
-python main.py Instancia1_G4.txt --max-tipos 1 --execucoes 10
-python main.py Instancia1_G4.txt --max-tipos 2 --execucoes 10
-python main.py Instancia2_G4.txt --max-tipos 1 --execucoes 10
-python main.py Instancia2_G4.txt --max-tipos 2 --execucoes 10
+python main.py Instancia1_G4.txt --max-tipos 1 2 --execucoes 10
+python main.py Instancia2_G4.txt --max-tipos 1 2 --execucoes 10
 ```
 
 Com 1 tipo por escola cada execução leva poucos segundos; com 2 tipos, de 15 a 80 segundos
@@ -66,16 +88,40 @@ Com 1 tipo por escola cada execução leva poucos segundos; com 2 tipos, de 15 a
 
 ## Saídas
 
-Tudo é gravado na pasta `resultados/`, na raiz do projeto (criada automaticamente):
+### Modo 1 (pasta `resultados/`, na raiz do projeto)
 
-- `resultados/tabela_resultados.csv`: uma linha por execução, com custo inicial, custo final,
-  melhoria percentual, tempos do construtivo e da busca local, número de escolas usadas,
-  ocupação mínima/média/máxima das escolas e distância média/máxima por candidato. **As linhas
-  são acrescentadas** a cada execução do programa; apague o arquivo para recomeçar a tabela.
-- `resultados/solucoes/<instancia>_max<K>tipos.txt`: a melhor solução encontrada, com o(s)
-  tipo(s) de prova de cada escola e, para cada candidato, a escola, a sala (numeradas a partir
-  de 1) e o tipo de prova. Esse arquivo é **sobrescrito** a cada execução da mesma instância
-  e do mesmo `--max-tipos`.
+- `tabela_resultados.csv`: uma linha por execução, com custo inicial, custo final, melhoria
+  percentual, tempos do construtivo e da busca local, número de escolas usadas, ocupação
+  mínima/média/máxima das escolas e distância média/máxima por candidato. **As linhas são
+  acrescentadas** a cada execução; apague o arquivo para recomeçar a tabela.
+- `solucoes/<instancia>_max<K>tipos.txt`: a melhor solução encontrada, com o(s) tipo(s) de prova de
+  cada escola e, para cada candidato, a escola, a sala (numeradas a partir de 1) e o tipo de prova.
+  É **sobrescrito** a cada execução da mesma instância e do mesmo K.
+
+### Modo 2 (pasta `resultados_lote/`, ou a indicada em `--saida`)
+
+| Arquivo | Conteúdo |
+|---|---|
+| `lote.zip` | um csv por (instância, K), com as mesmas colunas da `tabela_resultados.csv`. A pasta `lote/` onde eles são gerados é apagada depois do zip |
+| `resultados_completos.csv` | junção de todos os csv: uma linha por execução, sem resumir, no escopo da `tabela_resultados.csv` |
+| `planilha_K1.csv` | uma linha por instância (K=1), na ordem da planilha do trabalho: Instancia1_G1…G14 e depois Instancia2_G1…G14 |
+| `planilha_K2.csv` | o mesmo para K=2 |
+| `solucoes/` | a melhor solução de cada (instância, K) |
+| `progresso.log` | andamento: início, construtivo, cada semente, final de cada K e um resumo das falhas |
+| `falhas.log` | detalhe de cada falha: etapa, erro, dados da instância (candidatos, escolas, capacidade, demanda por tipo) e traceback |
+| `instancias/` | instâncias extraídas do zip |
+
+**Colunas de `planilha_K<k>.csv`:** `instancia`, **`melhor_resultado`, `media_dos_resultados`,
+`tempo_medio_s`** (as 3 colunas para copiar e colar na planilha; o tempo é construtivo + busca local),
+e depois `pior_resultado`, `desvio_padrao`, `custo_inicial`, `tempo_construtivo`, as médias das demais
+métricas (`media_melhoria_percentual`, `media_tempo_busca_local`, `media_escolas_usadas`,
+`media_ocupacao_*`, `media_distancia_*`) e `execucoes`.
+
+**Falhas na planilha:** se uma instância falhou, a mensagem do erro (etapa + tipo do erro + texto) aparece
+nas 3 colunas de colar; se não há arquivo da instância no zip, aparece `NAO EXECUTADA`.
+Os possíveis erros são: leitura da instância, construtivo (por exemplo, não conseguir cobrir a demanda
+de todos os tipos de prova), busca local, solução inviável e falha ao gravar a solução. O progresso do
+lote aparece na tela e em `progresso.log`; o `falhas.log` guarda o traceback.
 
 Formato do arquivo de solução:
 
@@ -105,7 +151,7 @@ de salas e de tipos de prova é lido do arquivo, não é fixo no código.
 | `src/solucao.py` | representação da solução, custo, verificação de viabilidade, estatísticas |
 | `src/construtivo.py` | heurística construtiva (solução inicial) |
 | `src/busca_local.py` | busca local com três vizinhanças |
-| `src/main.py` | executa os experimentos e grava os resultados |
+| `src/main.py` | executa os experimentos (uma instância ou lote), grava os csv, o zip e os logs |
 | `docs/construtivo.md` | descrição e justificativa do construtivo |
 | `docs/busca_local.md` | função de avaliação, vizinhanças, busca e resultados |
 
